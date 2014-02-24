@@ -2,6 +2,7 @@
 *.scssc
 *.sublime-workspace
 *.sublime-project
+*.powenv
 .rbenv-version
 build/
 tmp/

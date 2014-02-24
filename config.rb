@@ -3,15 +3,18 @@
 ###
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
+LANG = ENV['LANG'] || 'fr'
 
-@strings = data.strings.find{|s| s.lang ==  ENV['LANG'] || 'en' }  
+@strings = data.strings.find{|s| s.lang == LANG}  
 
 # Time.zone = "UTC"
 
 activate :blog do |blog|
-  blog.sources = "chapters/:title.html"
+  blog.sources = "chapters/"+LANG+"/:title.html"
   blog.permalink = "chapters/{slug}"
 end
+
+ignore 'source/chapters/es/README.md'
 
 page "chapters/*", :layout => :page_layout
 

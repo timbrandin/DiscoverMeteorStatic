@@ -1,0 +1,9 @@
+[submodule "source/chapters/es"]
+	path = source/chapters/es
+	url = git@github.com:DiscoverMeteor/DiscoverMeteor_Es.git
+[submodule "source/chapters/fr"]
+	path = source/chapters/fr
+	url = git@github.com:DiscoverMeteor/DiscoverMeteor_fr.git
+[submodule "source/chapters/zh"]
+	path = source/chapters/zh
+	url = git@github.com:DiscoverMeteor/DiscoverMeteor_zh.git

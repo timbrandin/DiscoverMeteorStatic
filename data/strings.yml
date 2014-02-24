@@ -9,7 +9,7 @@
   and: "and"
   error404: "Sorry, we couldn't find what you were looking for."
 - lang: 'es'
-  book_title: 'Discover Meteor'
+  book_title: 'Descubriendo Meteor'
   toc: 'Table Of Contents'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
