@@ -1,0 +1,157 @@
+.has-sidebar{
+	
+}
+.sidebar{
+	background:#161124;
+	color:white;
+	position:fixed;
+	width:270px;
+	// max-width:350px;
+	top:0px;
+	bottom:0px;
+	left:-270px;
+	z-index:100;
+	@include animate;
+	.inner{
+		height:100%;
+
+		overflow-y:auto;
+
+		/* Let's get this party started */
+		&::-webkit-scrollbar {
+			width: 8px;
+		}
+		 
+		/* Track */
+		&::-webkit-scrollbar-track {
+			-webkit-box-shadow: none; 
+			border-radius: 10px;
+		}
+		 
+		/* Handle */
+		&::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			background: lighten(#5e5774,10%); 
+			// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+		}
+		&::-webkit-scrollbar-thumb:window-inactive {
+			background: fade-out(#5e5774,0.3); 
+		}
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:20px;
+		}
+		li{
+			margin:0;
+			font-size:14px;
+			border-bottom:1px dotted fade-out(white, 0.8);
+			overflow:hidden;
+			@include animate(background-color);
+			&:hover{
+				background:white(0.05);
+			}
+			span{
+				color:white(0.2);
+				float:right;
+				display:block;
+				padding:6px 3px 6px 0px;
+			}
+			a{
+				padding:6px 0px;
+				display:block;
+				color:lighten($link,10%);
+				font-weight:medium();
+				margin-right:20px;
+				@include animate(all);
+				&:visited{
+					color:lighten($link,10%);
+				}
+				&:hover{
+					color:$hover;
+				}
+			}
+			&.active a{
+				color:$hover;
+				&:before{
+					content: "\276f";
+					display:inline-block;
+					margin-right:2px;
+				}
+			}
+		}
+	}
+	.toggle{
+		display:block;
+		height:40px;
+		width:40px;
+		position:absolute;
+		right:-40px;
+		top:0px;
+		@include animate;
+		background:fade-out(#161124, 0.8) url('/images/menu.svg') center center no-repeat;
+		background-size:24px 24px;
+		&:hover{
+			background-color:fade-out(#161124, 0.5);
+		}
+	}
+}
+.sidebar-chapter{
+	// font-style:italic;
+}
+.toc{
+	.toggle{
+		@include hide-text;
+	}
+}
+.toc-open{
+	.toc{
+		left:0px;
+		z-index:1000;
+		.toggle{
+			background-color:#161124;			
+		}
+	}
+	.row{
+		left:150px;	
+	}
+}
+
+// comments
+
+.comments{
+	width:400px;
+	left:-400px;
+	z-index:110;
+	background:$light-bg;
+	#disqus_thread{
+		padding:20px;
+	}
+	.toggle{
+		top:40px;
+		background:fade-out(#161124, 0.8) url('/images/comment.svg') center center no-repeat;
+		background-size:24px 24px;
+		color:white;
+		text-align:center;
+		text-overflow:clip;
+		font-size:11px;
+		line-height:36px;
+		// padding:0 15px;
+		// width:10px;
+		overflow:hidden;
+	}
+}
+
+.comments-open{
+	.comments{
+		left:0px;
+		z-index:1000;
+		.toggle{
+			background-color:$light-bg;			
+		}
+	}
+	.row{
+		left:200px;	
+	}
+}

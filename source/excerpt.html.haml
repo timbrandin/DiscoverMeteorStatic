@@ -1,0 +1,46 @@
+---
+title: Discover Meteor
+---
+
+- content_for(:title, "Discover Meteor")
+
+.section.inner-cover
+  .title
+    %h1
+      %span Discover
+      %strong Meteor
+    %h2 Building Real-Time JavaScript Web Apps
+  %footer
+    .credits
+      %h3 Tom Coleman &amp; Sacha Greif
+      %p
+        Cover photo credit:
+        %a{:href => 'http://www.flickr.com/photos/dobieks/4889222256/in/photostream/'} Perseid Hunting
+        by Darren Blackburn, licensed under a Creative Commons Attribution 2.0 Generic license.
+    .site
+      %a{:href => "http://discovermeteor.com"} wwww.discovermeteor.com
+- blog.articles.last(4).reverse_each do |chapter|
+  .section.chapter
+    .post-content
+      %h2{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}
+        =chapter.data.title
+        -if chapter.data.sidebar
+          %span.sidebar-marker Sidebar
+        %span.number=chapter.data.number
+      =find_and_preserve do
+        = chapter.body
+.section.cta
+  %h1 Congratulations!
+  %h2 You've wrapped up the first four chapters of <em>Discover Meteor</em>.
+  %p 
+    %a{:href => "https://www.discovermeteor.com/packages?utm_source=newsletter&utm_medium=pdf&utm_campaign=excerpt"}Get the full book
+    to learn about:
+  %ul
+    %li Managing user accounts.
+    %li Making your app secure.
+    %li Publishing and subscribing to data.
+    %li Submitting, editing, and voting on posts.
+    %li And much more.
+  %p You'll be up and running in no time!
+  %blockquote
+    “This book is a magnificent complement to the Meteor documentation, and a great option for anyone wanting to learn Meteor.” – <strong>Meteor co-founder Matt Debergalis</strong>

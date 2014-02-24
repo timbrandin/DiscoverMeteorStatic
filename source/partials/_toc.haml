@@ -1,0 +1,12 @@
+.toc.sidebar
+  %a.toggle{:href => "javascript:void(0)"} Toggle Table of Contents
+  .inner
+    %ul
+      - blog.articles.reverse_each do |post|
+        - if post.data.sidebar
+          - li_class = "sidebar-chapter"
+        %li{:class => li_class}
+          %span.number
+            =post.data.number  
+          %a{:href => "#{post.url}"}
+            =post.title

@@ -1,0 +1,10 @@
+- content_for(:title, @strings.title)
+
+%section.chapters
+  %h2= @strings.toc
+  %ul
+    - blog.articles.reverse_each do |post|
+      %li
+        %a.chapter-title{:href => "#{post.url}"}=post.title
+        %span.chapter-number=post.data.number
+

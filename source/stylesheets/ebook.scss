@@ -1,0 +1,220 @@
+@import "compass/css3";
+@import "susy";
+
+@import "includes/github";
+
+@import "includes/colors";
+@import "includes/mixins";
+@import "includes/grid";
+
+@mixin small(){
+	@content;
+}
+@mixin medium(){
+	.not-used{
+		@content;
+	}
+}
+
+@import "includes/main";
+@import "includes/book";
+
+
+@font-face {
+font-family : 'Source Sans Pro';
+font-weight : 200;
+font-style: normal;
+src : url(../fonts/SourceSansPro-Light.otf);
+}
+@font-face {
+font-family : 'Source Sans Pro';
+font-weight : 400;
+font-style: normal;
+src : url(../fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+font-family : 'Source Sans Pro';
+font-weight : 400;
+font-style: italic;
+src : url(../fonts/SourceSansPro-It.otf);
+}
+@font-face {
+font-family : 'Source Sans Pro';
+font-weight : 700;
+font-style: normal;
+src : url(../fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+font-family : 'Source Code Pro';
+font-weight : 400;
+font-style: normal;
+src : url(../fonts/SourceCodePro-Regular.otf);
+}
+@font-face {
+font-family : 'Source Code Pro';
+font-weight : 700;
+font-style: normal;
+src : url(../fonts/SourceCodePro-Bold.otf);
+}
+
+@font-face {
+font-family : 'klavika-web';
+font-weight : 200;
+font-style: normal;
+src : url(../fonts/Klavika-Light.otf);
+}
+@font-face {
+font-family : 'klavika-web';
+font-weight : 700;
+font-style: normal;
+src : url(../fonts/Klavika-Bold.otf);
+}
+.body{
+	font-family:'Source Sans Pro';
+}
+
+body, p{
+	font-size:16px;
+}
+section, .section{
+	page-break-after:always;
+}
+
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:18px;
+}
+h4{
+	font-size:16px
+}
+// .post-content{
+// 	h1,h2,h3,h4,h5{
+// 		text-align:left;
+// 	}	
+// }
+
+
+.cover-page{
+	img{
+		width:95%;
+		display:block;
+		margin:0 auto;
+		text-align:center;
+	}
+}
+.inner-cover{
+	.title{
+		margin:200px 0 200px 0;
+		h1{
+			text-transform:uppercase;
+			letter-spacing:10px;	
+			margin:0px;
+			font-size:48px;
+			text-align:center;
+			span{
+				font-weight:light();
+				@extend .secondary-font;
+			}
+			strong{
+				font-weight:bold();
+				@extend .secondary-font;
+			}
+		}
+		h2{
+			margin:0px;	
+			font-weight:light();
+			text-align:center;
+		}
+	}
+	footer{
+		.credits{
+			margin:0 0 40px 0;
+			h3{
+				font-size:18px;
+				margin:0;
+			}
+			p{
+				margin:0;
+			}
+		}
+		.site{
+			font-size:24px;
+		}
+	}
+}
+
+.highlight, pre, .note, .commit{
+	page-break-inside: avoid;
+}
+.note{
+	background:$light-yellow !important;
+	h3, h4{
+		font-size:16px;
+		margin:0 0 10px 0;
+		border-bottom:none;
+	}
+	&.chapter{
+		background:$light-bg !important;
+	}
+}
+.sidebar-marker{
+	border:1px solid $medium-bg;
+	font-size:10px;
+	padding: 0px 5px;
+	height:16px;
+	line-height:16px;
+}
+pre, code{
+	word-wrap: break-word;	
+}
+pre, code, pre span, code span{
+	font-size:13px;
+}
+.commit{
+	text-align:center;
+	.actions{
+		width:245px;
+		margin:0 auto 0 auto;
+	}
+	a{
+		display:inline-block;
+		font-size:12px;
+		width:100px;
+	}
+}
+.screenshot{
+	img{
+		@include box-shadow(0px 1px 2px rgba(0,0,0,0.25));
+	}	
+}
+.sidebar{
+	display:none;
+}
+.post-nav{
+	display:none;
+}
+.diagram{
+	&.pull-right, &.pull-left{
+		width:70%;
+		float:none;
+		margin:0 auto 40px auto;
+	}
+}
+.portrait{
+	display:none !important;
+}
+
+.cta{
+	border: 10px solid $light-bg;
+	padding: 20px 40px;
+	margin-bottom: 100px;
+	h2{
+		font-weight: light();
+	}
+}

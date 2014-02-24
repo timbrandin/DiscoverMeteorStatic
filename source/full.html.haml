@@ -1,0 +1,31 @@
+---
+title: Discover Meteor
+---
+
+- content_for(:title, "Discover Meteor")
+
+%section.inner-cover
+  .title
+    %h1
+      %span Discover
+      %strong Meteor
+    %h2 Building Real-Time JavaScript Web Apps
+  %footer
+    .credits
+      %h3 Tom Coleman &amp; Sacha Greif
+      %p
+        Cover photo credit:
+        %a{:href => 'http://www.flickr.com/photos/dobieks/4889222256/in/photostream/'} Perseid Hunting
+        by Darren Blackburn, licensed under a Creative Commons Attribution 2.0 Generic license.
+    .site
+      %a{:href => "http://discovermeteor.com"} www.discovermeteor.com
+- blog.articles.reverse_each do |chapter|
+  %section.chapter
+    .post-content
+      %h2{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}
+        =chapter.data.title
+        -if chapter.data.sidebar
+          %span.sidebar-marker Sidebar
+        %span.number=chapter.data.number
+      =find_and_preserve do
+        = chapter.body

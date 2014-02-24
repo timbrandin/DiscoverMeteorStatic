@@ -1,0 +1,69 @@
+// at 47.5em (16*47.5=760px) switch to a 12-column layout
+$small-break: 47.5em;
+$medium-break: 62.5em;
+
+@mixin small(){
+  @media screen and (max-width: $small-break) {
+    @content;
+  }
+}
+@mixin medium(){
+  @media screen and (min-width: $small-break) {
+    @content;
+  }
+}
+@mixin large(){
+  @media screen and (min-width: $medium-break) {
+    @content;
+  }
+}
+
+$total-columns  : 12;
+$column-width   : 5px;
+$gutter-width   : 60px;
+$grid-padding   : 0px;
+
+
+// mobile
+
+.row{
+	@include container;
+	padding:0 20px;
+	position:relative;
+	@include animate(left);
+}
+
+
+// desktop
+@include small{
+	body{
+		overflow-x:hidden;
+	}
+}
+@include medium{
+	section{
+		@include container;
+		padding:0;
+	}
+	.mailinglist{
+		width:760px;
+		.book{
+			display:block;
+		}
+		.form{
+			@include prefix(1);
+			@include span-columns(3);
+		}
+		.share{
+			@include span-columns(1 omega);
+		}
+	}
+	.bottom .form{
+		@include prefix(0);
+		@include span-columns(4 omega)
+	}
+	.about{
+		@include span-columns(3);
+	}
+
+}

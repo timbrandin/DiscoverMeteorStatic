@@ -1,0 +1,22 @@
+!!!
+%html.no-js{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    / Set the viewport width to device width for mobile
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    
+    %meta{:name => "Title", :content => yield_content(:bookTitle)}/
+    %meta{:name => "Author", :content => 'Tom Coleman & Sacha Greif'}/
+    %meta{:name => "Description", :content => 'Learn to build Meteor apps from scratch.'}/
+
+    %title=yield_content(:bookTitle)
+    / Included CSS Files
+    %link{:href => "/stylesheets/ebook.css", :rel => "stylesheet"}
+
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}
+  
+  %body{:class => yield_content(:body_class)}
+    .main
+      .row
+        =find_and_preserve do
+          =yield

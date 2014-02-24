@@ -1,0 +1,35 @@
+!!!
+%html.no-js{:lang => "en"}
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}/
+    / Set the viewport width to device width for mobile
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %title=yield_content(:title)
+    / Included CSS Files
+    %link{:href => "/stylesheets/screen.css", :rel => "stylesheet"}
+    %link{:href => "/stylesheets/print.css", :rel => "stylesheet", :media => "print"}
+    / %link{:href => "http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,400italic", :rel => "stylesheet"}
+    / %link{:href => "http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700", :rel => "stylesheet"}
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}
+
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"}
+    %script{:src => "//use.typekit.net/rcr2ohz.js"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+
+  %body{:class => yield_content(:body_class)}
+    %header
+      %h1
+        %a{:href => "/"}
+          %span=@strings.book_title.split(' ')[0]
+          %strong=@strings.book_title.split(' ')[1]
+    .main
+      .row
+        =find_and_preserve do
+          =yield
+    %footer
+      .row
+        &copy; 2014 <a href="http://tom.thesnail.org">Tom Coleman</a> #{@strings.and} <a href="http://sachagreif.com">Sacha Greif</a>
+        
+    %script{:src => "/javascripts/script.js"}

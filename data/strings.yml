@@ -1,0 +1,40 @@
+- lang: 'en'
+  book_title: 'Discover Meteor'
+  toc: 'Table Of Contents'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  error404: "Sorry, we couldn't find what you were looking for."
+- lang: 'es'
+  book_title: 'Discover Meteor'
+  toc: 'Table Of Contents'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  error404: "Sorry, we couldn't find what you were looking for."
+- lang: 'fr'
+  book_title: 'Découvrir Meteor'
+  toc: 'Sommaire'
+  code_issue: 'Signaler un problème avec le code'
+  book_issue: 'Signaler un problème avec le contenu'
+  discuss: "Ou bien discuter du contenu du livre:"
+  in_this_chapter: "Au programme de ce chapitre:"
+  sidebar: "Zoom"
+  and: "et"
+  error404: "Désolé, la page demandée n'a pas été trouvée."
+- lang: 'zh'
+  book_title: 'Discover Meteor 中文版'
+  toc: '内容'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "和"
+  error404: "Sorry, we couldn't find what you were looking for."
