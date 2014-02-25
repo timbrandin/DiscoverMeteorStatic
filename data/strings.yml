@@ -19,18 +19,18 @@
 - lang: 'es'
   book_title: 'Descubriendo Meteor'
   intro: >
-    This is the Spanish version of [Discover Meteor](http://discovermeteor.com), 
-    translated by the Discover Meteor community and made available for free under a 
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  translated_by: 'Translated by:'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
+    Esta es la versión en español del libro [Discover Meteor](http://discovermeteor.com), 
+    traducido por la comunidad Discover Meteor y distribuido de forma gratuita bajo licencia de
+    [Reconocimiento-NoComercial Creative Commons](http://creativecommons.org/licenses/by-nc/4.0/deed.es_ES).
+  toc: 'Tabla De Contenido'
+  translated_by: 'Traducido por:'
+  code_issue: 'Reporta un porblema con el código'
+  book_issue: 'Reporta un porblema con el libro'
+  discuss: "O, comenta el contenido aquí:"
+  in_this_chapter: "En este capítulo:"
   sidebar: "Sidebar"
-  and: "and"
-  error404: "Sorry, we couldn't find what you were looking for."
+  and: "y"
+  error404: "Lo sentimos, no hemos podido encontrar lo que buscabas."
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
 
