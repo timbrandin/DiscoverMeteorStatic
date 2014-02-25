@@ -1,6 +1,11 @@
 - lang: 'en'
   book_title: 'Discover Meteor'
+  intro: >
+    This is the English version of [Discover Meteor](http://discovermeteor.com), 
+    translated by the Discover Meteor community and made available for free under a 
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: 'Table Of Contents'
+  translated_by: 'Translated by:'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
   discuss: "Or discuss the book's contents here:"
@@ -13,7 +18,12 @@
 
 - lang: 'es'
   book_title: 'Descubriendo Meteor'
+  intro: >
+    This is the Spanish version of [Discover Meteor](http://discovermeteor.com), 
+    translated by the Discover Meteor community and made available for free under a 
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: 'Table Of Contents'
+  translated_by: 'Translated by:'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
   discuss: "Or discuss the book's contents here:"
@@ -26,7 +36,12 @@
 
 - lang: 'fr'
   book_title: 'Découvrir Meteor'
+  intro: >
+    Ceci est la version française de [Discover Meteor](http://discovermeteor.com), 
+    traduite par la communauté Discover Meteor et rendu disponible gratuitement sous une licence
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
   toc: 'Sommaire'
+  translated_by: 'Traduit par:'
   code_issue: 'Signaler un problème avec le code'
   book_issue: 'Signaler un problème avec le contenu'
   discuss: "Ou bien discuter du contenu du livre:"
@@ -39,7 +54,12 @@
 
 - lang: 'zh'
   book_title: 'Discover Meteor 中文版'
+  intro: >
+    This is the Chinese version of [Discover Meteor](http://discovermeteor.com), 
+    translated by the Discover Meteor community and made available for free under a 
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: '内容'
+  translated_by: 'Translated by:'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
   discuss: "Or discuss the book's contents here:"

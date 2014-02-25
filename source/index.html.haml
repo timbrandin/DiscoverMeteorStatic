@@ -1,5 +1,10 @@
 - content_for(:title, @strings.title)
 
+%section.intro
+  .note
+    - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true)
+    = markdown.render(@strings.intro)
+
 %section.chapters
   %h2= @strings.toc
   %ul
@@ -8,3 +13,10 @@
         %a.chapter-title{:href => "#{post.url}"}=post.title
         %span.chapter-number=post.data.number
 
+%section.side-column
+  .translators
+    %h3=@strings.translated_by
+    %ul
+      - data.translators.select{|t| t.lang == @strings.lang}.each do |t|
+        %li
+          %a{:href => t.github}=t.name
