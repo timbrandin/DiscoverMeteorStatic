@@ -6,3 +6,6 @@
 .rbenv-version
 build/
 tmp/
+source/chapters/en
+source/images/screenshots
+source/images/diagrams

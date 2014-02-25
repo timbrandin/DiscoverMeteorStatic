@@ -19,7 +19,7 @@
     var out = _.map(text.split('\n\n'), function(p){
       var firstChar = p.charAt(0);
       if(isLetter(firstChar)){
-        return '//'
+        return '////'
       }
       return p;
     }).join('\n\n');

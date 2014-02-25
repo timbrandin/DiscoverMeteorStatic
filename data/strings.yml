@@ -8,6 +8,9 @@
   sidebar: "Sidebar"
   and: "and"
   error404: "Sorry, we couldn't find what you were looking for."
+  disqus: "themeteorbook"
+  ga: ""
+
 - lang: 'es'
   book_title: 'Descubriendo Meteor'
   toc: 'Table Of Contents'
@@ -18,6 +21,9 @@
   sidebar: "Sidebar"
   and: "and"
   error404: "Sorry, we couldn't find what you were looking for."
+  disqus: "discovermeteores"
+  ga: "UA-38246482-5"
+
 - lang: 'fr'
   book_title: 'Découvrir Meteor'
   toc: 'Sommaire'
@@ -28,6 +34,9 @@
   sidebar: "Zoom"
   and: "et"
   error404: "Désolé, la page demandée n'a pas été trouvée."
+  disqus: "discovermeteorfr"
+  ga: "UA-38246482-6"
+
 - lang: 'zh'
   book_title: 'Discover Meteor 中文版'
   toc: '内容'
@@ -38,3 +47,5 @@
   sidebar: "Sidebar"
   and: "和"
   error404: "Sorry, we couldn't find what you were looking for."
+  disqus: "discovermeteorzh"
+  ga: "UA-38246482-7"
