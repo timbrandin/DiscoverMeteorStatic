@@ -29,22 +29,22 @@
   is_complete: true
   book_title: 'Descubriendo Meteor'
   intro: >
-    Esta es la versión en español del libro [Discover Meteor](http://discovermeteor.com),
+    Ésta es la versión en español del libro [Discover Meteor](http://discovermeteor.com),
     traducido por la comunidad Discover Meteor y distribuido de forma gratuita bajo licencia de
     [Reconocimiento-NoComercial Creative Commons](http://creativecommons.org/licenses/by-nc/4.0/deed.es_ES).
   toc: 'Tabla De Contenido'
-  contribute: 'Contribute'
+  contribute: 'Contribuye'
   on_github: '<em>Descubriendo Meteor</em> en GitHub'
   translated_by: 'Traducido por'
-  code_issue: 'Reporta un porblema con el código'
-  book_issue: 'Reporta un porblema con el libro'
+  code_issue: 'Reporta un problema con el código'
+  book_issue: 'Reporta un problema con el libro'
   discuss: "O, comenta el contenido aquí:"
   in_this_chapter: "En este capítulo:"
   sidebar: "Sidebar"
   and: "y"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
+  view_on_github: "Ver en GitHub"
+  launch_instance: "Lanzar instancia"
   error404: "Lo sentimos, no hemos podido encontrar lo que buscabas."
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
