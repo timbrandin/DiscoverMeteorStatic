@@ -26,7 +26,7 @@
 
 - lang: 'es'
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Es'
-  is_complete: true
+  is_complete: false
   book_title: 'Descubriendo Meteor'
   intro: >
     Ésta es la versión en español del libro [Discover Meteor](http://discovermeteor.com),
