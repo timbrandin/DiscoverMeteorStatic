@@ -3,7 +3,7 @@
 ###
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
-LANG = ENV['LANG'] || 'es'
+LANG = ENV['LANG'] || 'fr'
 
 @strings = data.strings.find{|s| s.lang == LANG}  
 

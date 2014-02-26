@@ -79,4 +79,12 @@ $(function(){
     $pre.html(lines.join(""));
 
   });
+
+  // percentage translated
+
+  var totalParagraphs = $('#progress').attr('max');
+  var translated = totalParagraphs - $('.post-content').text().match(/\/\/\/\//g).length;
+  var percentageTranslated = (translated * 100 / totalParagraphs);
+  $('.translation-progress progress').val(translated);
+  $('.translation-progress p').attr('data-value', Math.round(percentageTranslated));
 });

@@ -9,6 +9,7 @@ require 'rack/rewrite'
 
 # Get rid of README.md files
 
+`rm source/chapters/en/README.md`
 `rm source/chapters/es/README.md`
 `rm source/chapters/fr/README.md`
 `rm source/chapters/zh/README.md`

@@ -18,6 +18,7 @@
   error404: "Sorry, we couldn't find what you were looking for."
   disqus: "themeteorbook"
   ga: ""
+  percentage_translated: 'Percentage Translated'
 
 - lang: 'es'
   book_title: 'Descubriendo Meteor'
@@ -39,6 +40,7 @@
   error404: "Lo sentimos, no hemos podido encontrar lo que buscabas."
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
+  percentage_translated: 'Percentage Translated'
 
 - lang: 'fr'
   book_title: 'Découvrir Meteor'
@@ -60,6 +62,7 @@
   error404: "Désolé, la page demandée n'a pas été trouvée."
   disqus: "discovermeteorfr"
   ga: "UA-38246482-6"
+  percentage_translated: 'Traduction Complétée à'
 
 - lang: 'zh'
   book_title: 'Discover Meteor 中文版'
@@ -81,3 +84,4 @@
   error404: "Sorry, we couldn't find what you were looking for."
   disqus: "discovermeteorzh"
   ga: "UA-38246482-7"
+  percentage_translated: 'Percentage Translated'
