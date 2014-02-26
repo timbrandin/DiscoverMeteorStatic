@@ -14,9 +14,9 @@
         %span.chapter-number=post.data.number
 
 %section.side-column
+  .contribute
+    %h3=@strings.contribute
+    %a{:href => @strings.repo}= @strings.on_github
   .translators
     %h3=@strings.translated_by
-    %ul
-      - data.translators.select{|t| t.lang == @strings.lang}.each do |t|
-        %li
-          %a{:href => t.github}=t.name
+    %ul.contributors

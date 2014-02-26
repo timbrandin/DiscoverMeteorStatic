@@ -5,7 +5,6 @@
 - wrap_layout :layout do
   
   =partial "partials/toc"
-  %input#paragraphs{:type => 'hidden', :value => current_article.data.paragraphs}
   .post
     .top-nav
       =partial "partials/nav"
@@ -17,6 +16,7 @@
           %span.sidebar-marker= @strings.sidebar
         %span.number=current_article.data.number
       - if current_article.data.paragraphs && @strings.is_complete != true
+        %input#paragraphs{:type => 'hidden', :value => current_article.data.paragraphs}
         .translation-progress.note
           %p= @strings.percentage_translated
           %progress#progress{:max => current_article.data.paragraphs}

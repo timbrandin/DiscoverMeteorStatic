@@ -1,12 +1,15 @@
 - lang: 'en'
   is_complete: true
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_En'
   book_title: 'Discover Meteor'
   intro: >
     This is the English version of [Discover Meteor](http://discovermeteor.com), 
     translated by the Discover Meteor community and made available for free under a 
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: 'Table Of Contents'
-  translated_by: 'Translated by:'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
   discuss: "Or discuss the book's contents here:"
@@ -22,6 +25,7 @@
   percentage_translated: 'Percentage Translated'
 
 - lang: 'es'
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Es'
   is_complete: true
   book_title: 'Descubriendo Meteor'
   intro: >
@@ -29,7 +33,9 @@
     traducido por la comunidad Discover Meteor y distribuido de forma gratuita bajo licencia de
     [Reconocimiento-NoComercial Creative Commons](http://creativecommons.org/licenses/by-nc/4.0/deed.es_ES).
   toc: 'Tabla De Contenido'
-  translated_by: 'Traducido por:'
+  contribute: 'Contribute'
+  on_github: '<em>Descubriendo Meteor</em> en GitHub'
+  translated_by: 'Traducido por'
   code_issue: 'Reporta un porblema con el código'
   book_issue: 'Reporta un porblema con el libro'
   discuss: "O, comenta el contenido aquí:"
@@ -46,13 +52,16 @@
 
 - lang: 'fr'
   is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_fr'
   book_title: 'Découvrir Meteor'
   intro: >
     Ceci est la version française de [Discover Meteor](http://discovermeteor.com), 
     traduite par la communauté Discover Meteor et rendu disponible gratuitement sous une licence
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
   toc: 'Sommaire'
-  translated_by: 'Traduit par:'
+  contribute: 'Contribuer'
+  on_github: '<em>Découvrir Meteor</em> sur GitHub'
+  translated_by: 'Traduit par'
   code_issue: 'Signaler un problème avec le code'
   book_issue: 'Signaler un problème avec le contenu'
   discuss: "Ou bien discuter du contenu du livre:"
@@ -69,13 +78,16 @@
 
 - lang: 'zh'
   is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_zh'
   book_title: 'Discover Meteor 中文版'
   intro: >
     This is the Chinese version of [Discover Meteor](http://discovermeteor.com), 
     translated by the Discover Meteor community and made available for free under a 
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: '内容'
-  translated_by: 'Translated by:'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor 中文版</em>在GitHub'
+  translated_by: 'Translated by'
   code_issue: 'Report an issue with the code'
   book_issue: 'Report an issue with the book'
   discuss: "Or discuss the book's contents here:"

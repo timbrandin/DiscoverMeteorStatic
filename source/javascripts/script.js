@@ -1,5 +1,7 @@
 $(function(){
 
+  lang = $('#lang').val();
+
   // browser console prompt
   $('span:contains("❯")').removeClass('err').addClass('browser-prompt');
 
@@ -82,9 +84,22 @@ $(function(){
 
   // percentage translated
 
-  var totalParagraphs = $('#progress').attr('max');
-  var translated = totalParagraphs - $('.post-content').text().match(/\/\/\/\//g).length;
-  var percentageTranslated = (translated * 100 / totalParagraphs);
-  $('.translation-progress progress').val(translated);
-  $('.translation-progress p').attr('data-value', Math.round(percentageTranslated));
+  if($('#progress').length){
+    var totalParagraphs = $('#progress').attr('max');
+    var translated = totalParagraphs - $('.post-content').text().match(/\/\/\/\//g).length;
+    var percentageTranslated = (translated * 100 / totalParagraphs);
+    $('.translation-progress progress').val(translated);
+    $('.translation-progress p').attr('data-value', Math.round(percentageTranslated));
+  }
+
+  // GitHub
+
+  $.get('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/contributors', function (data) {
+    $.each(data, function (index, contributor) {
+      console.log(contributor)
+      $('.contributors').append('<li><img src="'+contributor.avatar_url+'"/><a href="'+contributor.html_url+'">'+contributor.login+'</a></li>')
+    });
+  })
+
+
 });
