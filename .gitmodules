@@ -9,4 +9,4 @@
 	url = git://github.com/DiscoverMeteor/DiscoverMeteor_zh.git
 [submodule "source/chapters/en"]
 	path = source/chapters/en
-	url = git@github.com:DiscoverMeteor/DiscoverMeteor_En.git
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_En.git
