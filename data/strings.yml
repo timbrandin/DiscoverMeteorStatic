@@ -3,8 +3,8 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_En'
   book_title: 'Discover Meteor'
   intro: >
-    This is the English version of [Discover Meteor](http://discovermeteor.com), 
-    translated by the Discover Meteor community and made available for free under a 
+    This is the English version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: 'Table Of Contents'
   contribute: 'Contribute'
@@ -29,22 +29,22 @@
   is_complete: true
   book_title: 'Descubriendo Meteor'
   intro: >
-    Esta es la versión en español del libro [Discover Meteor](http://discovermeteor.com), 
+    Ésta es la versión en español del libro [Discover Meteor](http://discovermeteor.com),
     traducido por la comunidad Discover Meteor y distribuido de forma gratuita bajo licencia de
     [Reconocimiento-NoComercial Creative Commons](http://creativecommons.org/licenses/by-nc/4.0/deed.es_ES).
   toc: 'Tabla De Contenido'
-  contribute: 'Contribute'
+  contribute: 'Contribuye'
   on_github: '<em>Descubriendo Meteor</em> en GitHub'
   translated_by: 'Traducido por'
-  code_issue: 'Reporta un porblema con el código'
-  book_issue: 'Reporta un porblema con el libro'
+  code_issue: 'Reporta un problema con el código'
+  book_issue: 'Reporta un problema con el libro'
   discuss: "O, comenta el contenido aquí:"
   in_this_chapter: "En este capítulo:"
   sidebar: "Sidebar"
   and: "y"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
+  view_on_github: "Ver en GitHub"
+  launch_instance: "Lanzar instancia"
   error404: "Lo sentimos, no hemos podido encontrar lo que buscabas."
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
@@ -55,7 +55,7 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_fr'
   book_title: 'Découvrir Meteor'
   intro: >
-    Ceci est la version française de [Discover Meteor](http://discovermeteor.com), 
+    Ceci est la version française de [Discover Meteor](http://discovermeteor.com),
     traduite par la communauté Discover Meteor et rendu disponible gratuitement sous une licence
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
   toc: 'Sommaire'
@@ -81,23 +81,23 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_zh'
   book_title: 'Discover Meteor 中文版'
   intro: >
-    This is the Chinese version of [Discover Meteor](http://discovermeteor.com), 
-    translated by the Discover Meteor community and made available for free under a 
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+    这是[Discover Meteor](http://discovermeteor.com) 中文版，
+    由 Discover Meteor 社区翻译，免费阅读，基于
+    “[Creative Commons 署名-非商业性使用](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US)”协议发布。
   toc: '内容'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor 中文版</em>在GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
+  contribute: '贡献'
+  on_github: '<em>Discover Meteor 中文版</em>在 GitHub'
+  translated_by: '翻译人员'
+  code_issue: '反馈代码问题'
+  book_issue: '反馈本书问题'
+  discuss: "或者在这里讨论本书："
+  in_this_chapter: "本章内容："
+  sidebar: "附录"
   and: "和"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  commit: "提交"
+  view_on_github: "在 GitHub 中查看"
+  launch_instance: "查看演示"
+  error404: "抱歉，无法找到您要查看的内容。"
   disqus: "discovermeteorzh"
   ga: "UA-38246482-7"
-  percentage_translated: 'Percentage Translated'
+  percentage_translated: '翻译进度'
