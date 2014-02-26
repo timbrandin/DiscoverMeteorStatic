@@ -16,9 +16,9 @@
         - if current_article.data.sidebar
           %span.sidebar-marker= @strings.sidebar
         %span.number=current_article.data.number
-      - if @strings.lang != 'en'
+      - if current_article.data.paragraphs && @strings.is_complete != true
         .translation-progress.note
-          %p{'data-value' => 10}= @strings.percentage_translated
+          %p= @strings.percentage_translated
           %progress#progress{:max => current_article.data.paragraphs}
       .chapter-summary.note.chapter
         %h3= @strings.in_this_chapter
