@@ -340,28 +340,28 @@
 - lang: 'pt'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Pt'
-  book_title: 'Discover Meteor'
+  book_title: 'Descubra Meteor'
   intro: >
-    This is the Portuguese version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    Esta é a versão em Português de [Discover Meteor](http://discovermeteor.com),
+    traduzido pela comunidade Discover Meteor e tornado disponível gratuitamente através de uma licença
+    [Creative Commons de Atribuição Não-Comercial](http://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR).
+  toc: 'Tabela De Conteúdos'
+  contribute: 'Contribua'
+  on_github: '<em>Discover Meteor</em> no GitHub'
+  translated_by: 'Traduzido por'
+  code_issue: 'Reporte um problema com o código'
+  book_issue: 'Reporte um problema com o livro'
+  discuss: "Ou discuta os conteúdos do livro aqui:"
+  in_this_chapter: "Neste capítulo, você irá:"
+  sidebar: "Lateral"
+  and: "e"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "Ver no GitHub"
+  launch_instance: "Lançar Instância"
+  error404: "Desculpem não conseguimos encontrar o que estava procurando."
   disqus: "themeteorbook"
   ga: ""
-  percentage_translated: 'Percentage Translated'
+  percentage_translated: 'Porcentagem Traduzida'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Italian                                       #
