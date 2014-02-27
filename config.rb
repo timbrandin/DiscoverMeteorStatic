@@ -4,6 +4,7 @@
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
 LANG = ENV['LANG'] || 'fr'
+TOGO = (ENV['TOGO'] || '').split(',')
 
 @strings = data.strings.find{|s| s.lang == LANG}  
 

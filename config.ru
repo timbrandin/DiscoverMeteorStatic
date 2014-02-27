@@ -14,8 +14,13 @@ require 'rack/rewrite'
 `rm source/chapters/fr/README.md`
 `rm source/chapters/zh/README.md`
 
+to_go = []
+Dir.glob('source/chapters/es/*.md.erb').each do |file|
+  to_go << `grep -o '////' #{file} | wc -l`.to_i
+end
+
 # Build the static site when the app boots
-`bundle exec middleman build`
+puts `TOGO=#{to_go.join(',')} bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head
