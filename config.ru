@@ -12,6 +12,7 @@ require 'rack/rewrite'
 LANG = ENV['LANG'] || 'de'
 
 `rm source/chapters/#{LANG}/README.md`
+`rm source/chapters/#{LANG}/COMMON.md`
 
 # Build the static site when the app boots
 `bundle exec middleman build`
