@@ -9,17 +9,7 @@ require 'rack/rewrite'
 
 # Get rid of README.md files
 
-`rm source/chapters/en/README.md`
-`rm source/chapters/es/README.md`
-`rm source/chapters/fr/README.md`
-`rm source/chapters/zh/README.md`
-`rm source/chapters/jp/README.md`
-`rm source/chapters/pl/README.md`
-`rm source/chapters/pt/README.md`
 `rm source/chapters/de/README.md`
-`rm source/chapters/ru/README.md`
-`rm source/chapters/gr/README.md`
-`rm source/chapters/kr/README.md`
 
 # Build the static site when the app boots
 `bundle exec middleman build`
