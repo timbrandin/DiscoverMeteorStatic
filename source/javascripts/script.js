@@ -26,7 +26,7 @@ $(function(){
 
   $('.lines-highlight').each(function(){
     var $this = $(this);
-    var $pre = $this.prevAll('.highlight').first().find('pre');
+    var $pre = $this.prevAll('.highlight').first();
     var text = $pre.html();
     var lines = text.split('\n');    
     var linesToHighlight = $this.attr('data-lines');
@@ -87,7 +87,7 @@ $(function(){
   if($('#progress').length){
     var totalParagraphs = $('#progress').attr('max');
     var findMarkers = $('.post-content').text().match(/\/\/\/\//g);
-    var toTranslate = !!findMarkers ? $('.post-content').text().match(/\/\/\/\//g).length : 0;
+    var toTranslate = !!findMarkers ? findMarkers.length : 0;
     var translated = totalParagraphs - toTranslate;
     var percentageTranslated = (translated * 100 / totalParagraphs);
     $('.translation-progress progress').val(translated);
