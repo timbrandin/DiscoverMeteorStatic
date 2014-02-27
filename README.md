@@ -37,3 +37,4 @@ In some cases, the `README.md` file included with each language's repo can trigg
 ### Deploying
 
 Pushing a commit to this repo will automatically redeploy all translation instances ([see full list](https://www.discovermeteor.com/translations)).
+
