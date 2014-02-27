@@ -19,6 +19,7 @@ require 'rack/rewrite'
 `rm source/chapters/de/README.md`
 `rm source/chapters/ru/README.md`
 `rm source/chapters/gr/README.md`
+`rm source/chapters/kr/README.md`
 
 # Build the static site when the app boots
 `bundle exec middleman build`
