@@ -166,26 +166,26 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Ru'
   book_title: 'Discover Meteor'
   intro: >
-    This is the English version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
+    Это русская версия [Discover Meteor](http://discovermeteor.com),
+    перевод осуществлен сообществом Discover Meteor и доступен бесплатно по лицензии
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  toc: 'Содержание'
+  contribute: 'Внести изменения'
+  on_github: '<em>Discover Meteor</em> на GitHub'
+  translated_by: 'Переводчики'
+  code_issue: 'Сообщить о проблеме в коде'
+  book_issue: 'Сообщить об ошибке в книге'
+  discuss: "Или обсудить содержание книги здесь:"
+  in_this_chapter: "В этой главе вы:"
+  sidebar: "Сайдбар"
+  and: "и"
+  commit: "Коммит"
+  view_on_github: "Открыть на GitHub"
+  launch_instance: "Запустить копию"
+  error404: "Извините, мы не смогли найти то что вы искали."
   disqus: "themeteorbook"
   ga: ""
-  percentage_translated: 'Percentage Translated'
+  percentage_translated: 'На данный момент переведено'
 
 # -------------------------------------------------------------------------------------- #
 #                                           German                                       #
