@@ -12,6 +12,8 @@
 # 9. Polish
 # 10. Greek
 # 11. Portuguese
+# 12. Italian
+# 13. Dutch
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -358,5 +360,63 @@
   launch_instance: "Launch Instance"
   error404: "Sorry, we couldn't find what you were looking for."
   disqus: "themeteorbook"
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+
+# -------------------------------------------------------------------------------------- #
+#                                          Italian                                       #
+# -------------------------------------------------------------------------------------- #
+- lang: 'it'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_It'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Italian version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+
+# -------------------------------------------------------------------------------------- #
+#                                           Dutch                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'nl'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Nl'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Dutch version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
   ga: ""
   percentage_translated: 'Percentage Translated'
