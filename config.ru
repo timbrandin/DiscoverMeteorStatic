@@ -7,9 +7,11 @@ require "middleman/rack"
 require "rack/contrib/try_static"
 require 'rack/rewrite'
 
-# Get rid of README.md files
+# Get rid of README.md file
 
-`rm source/chapters/de/README.md`
+LANG = ENV['LANG'] || 'de'
+
+`rm source/chapters/#{LANG}/README.md`
 
 # Build the static site when the app boots
 `bundle exec middleman build`
