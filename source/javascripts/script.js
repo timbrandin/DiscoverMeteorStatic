@@ -86,7 +86,9 @@ $(function(){
 
   if($('#progress').length){
     var totalParagraphs = $('#progress').attr('max');
-    var translated = totalParagraphs - $('.post-content').text().match(/\/\/\/\//g).length;
+    var findMarkers = $('.post-content').text().match(/\/\/\/\//g);
+    var toTranslate = !!findMarkers ? $('.post-content').text().match(/\/\/\/\//g).length : 0;
+    var translated = totalParagraphs - toTranslate;
     var percentageTranslated = (translated * 100 / totalParagraphs);
     $('.translation-progress progress').val(translated);
     $('.translation-progress p').attr('data-value', Math.round(percentageTranslated));
