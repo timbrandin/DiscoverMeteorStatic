@@ -4,7 +4,9 @@
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
 LANG = ENV['LANG'] || 'fr'
-TOGO = (ENV['TOGO'] || '').split(',')
+parts = (ENV['TOGO'] || '').split(',').map{|s| s.split(':')}.flatten
+TOGO = Hash[*parts]
+p TOGO
 
 @strings = data.strings.find{|s| s.lang == LANG}  
 

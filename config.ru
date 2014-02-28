@@ -14,13 +14,16 @@ require 'rack/rewrite'
 `rm source/chapters/fr/README.md`
 `rm source/chapters/zh/README.md`
 
-to_go = []
+to_go = {}
 Dir.glob('source/chapters/es/*.md.erb').each do |file|
-  to_go << `grep -o '////' #{file} | wc -l`.to_i
+  chapter = file.match('/([^/-]*)-.*$')[1]
+  to_go[chapter] = `grep -o '////' #{file} | wc -l`.to_i
 end
 
 # Build the static site when the app boots
-puts `TOGO=#{to_go.join(',')} bundle exec middleman build`
+to_go_str = to_go.map {|k,v| "#{k}:#{v}"}.join(',')
+p to_go_str
+puts `TOGO=#{to_go_str} bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head
