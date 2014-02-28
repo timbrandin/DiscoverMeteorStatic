@@ -9,10 +9,11 @@ require 'rack/rewrite'
 
 # Get rid of README.md file
 
-LANG = ENV['LANG'] || 'ru'
+LANG = ENV['LANG'] || 'pt'
 
 `rm source/chapters/#{LANG}/README.md`
 `rm source/chapters/#{LANG}/COMMON.md`
+`rm source/chapters/#{LANG}/LICENSE`
 
 to_go = []
 Dir.glob('source/chapters/'+LANG+'/*.md.erb').each do |file|
