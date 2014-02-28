@@ -17,6 +17,7 @@
         %span.number=current_article.data.number
       - if current_article.data.paragraphs && @strings.is_complete != true
         %input#paragraphs{:type => 'hidden', :value => current_article.data.paragraphs}
+
         .translation-progress.note
           %p= @strings.percentage_translated
           %progress#progress{:max => current_article.data.paragraphs}

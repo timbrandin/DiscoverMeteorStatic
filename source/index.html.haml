@@ -1,3 +1,6 @@
+- total_done= 0
+- total_todo= 0
+
 - content_for(:title, @strings.book_title)
 
 %section.intro
@@ -8,12 +11,22 @@
 %section.chapters
   %h2= @strings.toc
   %ul
-    - blog.articles.reverse_each do |post|
+    - blog.articles.reverse.each_with_index do |post, index|
+      - paragraphs_to_go = @togo[index].to_i
+      - paragraphs_done = post.data.paragraphs - paragraphs_to_go
+      - percentage = paragraphs_done*100/post.data.paragraphs
+      - total_done += paragraphs_done
+      - total_todo += post.data.paragraphs
       %li
         %a.chapter-title{:href => "#{post.url}"}=post.title
+        %span.chapter-percentage (#{percentage}%)
         %span.chapter-number=post.data.number
 
 %section.side-column
+  .progress
+    - percentage_done = total_done * 100 / total_todo
+    %p{'data-value' => percentage_done}= @strings.percentage_translated
+    %progress#progress{:value => total_done, :max => total_todo}
   .contribute
     %h3=@strings.contribute
     %a{:href => @strings.repo}= @strings.on_github

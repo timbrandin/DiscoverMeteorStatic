@@ -9,13 +9,20 @@ require 'rack/rewrite'
 
 # Get rid of README.md file
 
-LANG = ENV['LANG'] || 'de'
+LANG = ENV['LANG'] || 'ru'
 
 `rm source/chapters/#{LANG}/README.md`
 `rm source/chapters/#{LANG}/COMMON.md`
 
+to_go = []
+Dir.glob('source/chapters/'+LANG+'/*.md.erb').each do |file|
+  to_go << `grep -o '////' #{file} | wc -l`.to_i
+end
+
+puts `echo 'togo: #{to_go.join(',')}'`
+
 # Build the static site when the app boots
-`bundle exec middleman build`
+puts `TOGO='#{to_go.join(',')}' bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head

@@ -3,9 +3,10 @@
 ###
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
-LANG = ENV['LANG'] || 'de'
+LANG = ENV['LANG'] || 'ru'
 
 @strings = data.strings.find{|s| s.lang == LANG}  
+@togo = (ENV['TOGO'] || '5,12,27,46,32,72,22,72,33,12,20,60,28,29,16,31,22,34,15,25,29,67,49,36,58,24').split(',')
 
 # Time.zone = "UTC"
 
@@ -13,8 +14,6 @@ activate :blog do |blog|
   blog.sources = "chapters/"+LANG+"/:title.html"
   blog.permalink = "chapters/{slug}"
 end
-
-ignore 'source/chapters/es/README.md'
 
 page "chapters/*", :layout => :page_layout
 
