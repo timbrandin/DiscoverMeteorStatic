@@ -19,7 +19,7 @@
       - total_todo += post.data.paragraphs
       %li
         %a.chapter-title{:href => "#{post.url}"}=post.title
-        %span.chapter-percentage #{paragraphs_done}/#{post.data.paragraphs} (#{percentage}%)
+        / %span.chapter-percentage (#{percentage}%)
         %span.chapter-number=post.data.number
 
 %section.side-column
