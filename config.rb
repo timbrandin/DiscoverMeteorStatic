@@ -9,8 +9,13 @@ LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', '
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
 LANG = ENV['LANG'] || DEFAULTLANG
 
+parts = (ENV['TOGO'] || '').split(',').map{|s| s.split(':')}.flatten
+TOGO = Hash[*parts]
+p TOGO
+
+@togo = TOGO
+
 @strings = data.strings.find{|s| s.lang == LANG} || data.strings.find{|s| s.lang == 'en'}
-@togo = (ENV['TOGO'] || '0,0,0,0,0,1,52,72,33,27,20,60,28,29,16,31,22,34,15,25,29,67,49,36,58,24').split(',')
 
 # Time.zone = "UTC"
 

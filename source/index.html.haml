@@ -3,6 +3,8 @@
 
 - content_for(:title, @strings.book_title)
 
+%input{:type => 'hidden', :value => @togo.to_s}
+
 %section.intro
   .note
     - markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true)
