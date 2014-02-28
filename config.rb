@@ -1,3 +1,5 @@
+DEFAULTLANG = 'ru'
+
 ###
 # Blog settings
 ###
@@ -5,10 +7,10 @@
 LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh']
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
-LANG = ENV['LANG'] || 'pt'
+LANG = ENV['LANG'] || DEFAULTLANG
 
 @strings = data.strings.find{|s| s.lang == LANG}  
-@togo = (ENV['TOGO'] || '5,12,27,46,32,72,22,72,33,12,20,60,28,29,16,31,22,34,15,25,29,67,49,36,58,24').split(',')
+@togo = (ENV['TOGO'] || '0,0,0,0,0,1,52,72,33,27,20,60,28,29,16,31,22,34,15,25,29,67,49,36,58,24').split(',')
 
 # Time.zone = "UTC"
 

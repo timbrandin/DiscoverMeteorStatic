@@ -1,3 +1,5 @@
+DEFAULTLANG = 'ru'
+
 # see http://randomerrata.com/post/56163474367/middleman-on-heroku
 
 require "rubygems"
@@ -9,7 +11,7 @@ require 'rack/rewrite'
 
 # Get rid of README.md file
 
-LANG = ENV['LANG'] || 'pt'
+LANG = ENV['LANG'] || DEFAULTLANG
 
 `rm source/chapters/#{LANG}/README.md`
 `rm source/chapters/#{LANG}/COMMON.md`
