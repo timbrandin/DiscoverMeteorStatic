@@ -14,6 +14,7 @@ total_todo = 0
       total_done += paragraphs_done
       total_todo += post.data.paragraphs
       %>
+      <% if index > 0 %>,<% end %>
       {
         "title": "<%=post.title%>",
         "paragraphs": <%=post.data.paragraphs%>,
@@ -21,7 +22,7 @@ total_todo = 0
         "percentage": <%=percentage%>,
         "number": "<%=post.data.number%>",
         "slug": "<%=post.data.slug%>"
-      },
+      }
       <% end %>
   ],
   "total_paragraphs": <%=total_todo%>,
