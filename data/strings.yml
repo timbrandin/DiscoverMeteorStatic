@@ -433,9 +433,9 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Percentuale Tradotta'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
-  language_name: ''
+  download: 'Scarica'
+  print_pdf: 'Stampa > Salva come PDF'
+  language_name: 'Italiano'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
