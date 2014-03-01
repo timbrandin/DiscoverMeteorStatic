@@ -26,6 +26,8 @@ page "/excerpt.html", :layout => :ebook_layout
 page "/pdf.html", :layout => :ebook_layout
 page "/sample.html", :layout => :ebook_layout
 
+page "api.html", :layout => :api_layout
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

@@ -1,0 +1,30 @@
+
+<%
+total_done = 0
+total_todo = 0
+%>
+
+{
+  "chapters": [
+      <% 
+      blog.articles.reverse.each_with_index do |post, index|
+      paragraphs_to_go = @togo[index].to_i
+      paragraphs_done = post.data.paragraphs - paragraphs_to_go
+      percentage = paragraphs_done*100/post.data.paragraphs
+      total_done += paragraphs_done
+      total_todo += post.data.paragraphs
+      %>
+      {
+        "title": "<%=post.title%>",
+        "paragraphs": <%=post.data.paragraphs%>,
+        "paragraphs_done": <%=paragraphs_done%>,
+        "percentage": <%=percentage%>,
+        "number": "<%=post.data.number%>",
+        "slug": "<%=post.data.slug%>"
+      },
+      <% end %>
+  ],
+  "total_paragraphs": <%=total_todo%>,
+  "total_paragraphs_done": <%=total_done%>,
+  "total_percentage": <%=total_done*100/total_todo%>
+}

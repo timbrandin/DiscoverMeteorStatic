@@ -104,7 +104,7 @@ $(function(){
       if(contributor.login != 'SachaG')
         $('.contributors').append('<li><img src="'+contributor.avatar_url+'"/><a href="'+contributor.html_url+'">'+contributor.login+'</a> <span>('+contributor.contributions+')</span></li>')
     });
-  })
+  });
 
 
 });
