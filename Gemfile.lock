@@ -81,6 +81,7 @@ GEM
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
+    rack-cors (0.2.9)
     rack-livereload (0.3.15)
       rack
     rack-rewrite (1.5.0)
@@ -137,6 +138,7 @@ DEPENDENCIES
   nokogiri
   puma
   rack-contrib
+  rack-cors
   rack-rewrite
   rack-ssl-enforcer
   redcarpet

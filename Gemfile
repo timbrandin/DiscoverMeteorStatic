@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "rack-contrib"
 gem "rack-rewrite"
 gem "rack-ssl-enforcer"
+gem "rack-cors"
 gem "puma"
 
 gem "thin"

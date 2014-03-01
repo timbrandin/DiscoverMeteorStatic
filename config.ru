@@ -8,6 +8,17 @@ require "rack"
 require "middleman/rack"
 require "rack/contrib/try_static"
 require 'rack/rewrite'
+require 'rack/cors'
+
+# allow all origins
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '*', 
+        :headers => :any, 
+        :methods => [:get, :post, :options]
+  end
+end
 
 # Get rid of README.md file
 
@@ -29,6 +40,7 @@ puts `TOGO='#{to_go.join(',')}' bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head
+
 # Attempt to serve static HTML files
 use Rack::TryStatic,
     :root => "tmp",
