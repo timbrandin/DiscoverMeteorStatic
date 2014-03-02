@@ -1,3 +1,8 @@
+# Notes
+
+# - The `language_name` variable should be the name of the language *in the language* (i.e. "中文", not "Chinese")
+
+
 # Table of Contents:
 
 # 0. Blank (copy this for new languages)
@@ -14,7 +19,7 @@
 # 11. Portuguese
 # 12. Italian
 # 13. Dutch
-# 13. Indonesian
+# 14. Indonesian
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -44,6 +49,9 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
 
 # -------------------------------------------------------------------------------------- #
 #                                           English                                      #
@@ -73,6 +81,9 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: 'English'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Spanish                                       #
@@ -101,7 +112,10 @@
   error404: "Lo sentimos, no hemos podido encontrar lo que buscabas."
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
-  percentage_translated: 'Percentage Translated'
+  percentage_translated: 'Porcentaje completado'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: 'Español'
 
 # -------------------------------------------------------------------------------------- #
 #                                           French                                       #
@@ -131,6 +145,9 @@
   disqus: "discovermeteorfr"
   ga: "UA-38246482-6"
   percentage_translated: 'Traduction Complétée à'
+  download: 'Télécharger'
+  print_pdf: 'Imprimer > Sauvegarder au format PDF'
+  language_name: 'Français'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Chinese                                      #
@@ -160,6 +177,9 @@
   disqus: "discovermeteorzh"
   ga: "UA-38246482-7"
   percentage_translated: '翻译进度'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: '中文'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Russian                                      #
@@ -189,6 +209,9 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'На данный момент переведено'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
 
 # -------------------------------------------------------------------------------------- #
 #                                           German                                       #
@@ -218,6 +241,9 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
 
 # -------------------------------------------------------------------------------------- #
 #                                           Korean                                       #
@@ -247,6 +273,9 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
 
 # -------------------------------------------------------------------------------------- #
 #                                          Japanese                                      #
@@ -276,7 +305,10 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
-
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                           Polish                                       #
 # -------------------------------------------------------------------------------------- #
@@ -305,7 +337,10 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
-
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                           Greek                                        #
 # -------------------------------------------------------------------------------------- #
@@ -334,36 +369,42 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'Percentage Translated'
-
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                         Portuguese                                     #
 # -------------------------------------------------------------------------------------- #
 - lang: 'pt'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Pt'
-  book_title: 'Discover Meteor'
+  book_title: 'Descubra Meteor'
   intro: >
-    This is the Portuguese version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
+    Esta é a versão em Português de [Discover Meteor](http://discovermeteor.com),
+    traduzido pela comunidade Discover Meteor e tornado disponível gratuitamente através de uma licença
+    [Creative Commons de Atribuição Não-Comercial](http://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR).
+  toc: 'Tabela De Conteúdos'
+  contribute: 'Contribua'
+  on_github: '<em>Discover Meteor</em> no GitHub'
+  translated_by: 'Traduzido por'
+  code_issue: 'Reporte um problema com o código'
+  book_issue: 'Reporte um problema com o livro'
+  discuss: "Ou discuta os conteúdos do livro aqui:"
+  in_this_chapter: "Neste capítulo, você irá:"
+  sidebar: "Lateral"
+  and: "e"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "Ver no GitHub"
+  launch_instance: "Lançar Instância"
+  error404: "Desculpem não conseguimos encontrar o que estava procurando."
   disqus: "themeteorbook"
   ga: ""
-  percentage_translated: 'Percentage Translated'
-
+  percentage_translated: 'Porcentagem Traduzida'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                          Italian                                       #
 # -------------------------------------------------------------------------------------- #
@@ -372,7 +413,7 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_It'
   book_title: 'Discover Meteor'
   intro: >
-    Questa è la vesione Italiana di [Discover Meteor](http://discovermeteor.com),
+    Questa è la versione Italiana di [Discover Meteor](http://discovermeteor.com),
     tradotta dalla comunità di Discover Meteor e resa disponibile gratuitamente con licenza
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
   toc: 'Tavola Dei Contenuti'
@@ -392,7 +433,10 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Percentuale Tradotta'
-
+  download: 'Scarica'
+  print_pdf: 'Stampa > Salva come PDF'
+  language_name: 'Italiano'
+  
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
 # -------------------------------------------------------------------------------------- #
@@ -421,7 +465,10 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Percentage Translated'
-
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                         Indonesian                                     #
 # -------------------------------------------------------------------------------------- #
@@ -430,27 +477,30 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Id'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Indonesian version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
+    Ini adalah versi bahasa Indonesia dari [Discover Meteor](http://discovermeteor.com),
+    diterjemahkan oleh komunitas Discover Meteor dan tersedia gratis di bawah
+    lisensi [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+  toc: 'Daftar Isi'
+  contribute: 'Bantu'
+  on_github: '<em>Discover Meteor</em> di GitHub'
+  translated_by: 'Diterjemahkan oleh'
+  code_issue: 'Laporkan masalah tentang kode'
+  book_issue: 'Laporkan masalah tentang buku'
+  discuss: "Atau diskusikan isi buku ini di sini:"
+  in_this_chapter: "Di bab ini, Anda akan:"
   sidebar: "Sidebar"
-  and: "and"
+  and: "dan"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  view_on_github: "Tampilkan di GitHub"
+  launch_instance: "Jalankan Contoh"
+  error404: "Maaf, kami tidak dapat menemukan apa yang Anda cari."
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-
+  percentage_translated: 'Persentase telah Diterjemahkan'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  
 # -------------------------------------------------------------------------------------- #
 #                                          Romanian                                      #
 # -------------------------------------------------------------------------------------- #
@@ -479,3 +529,7 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  

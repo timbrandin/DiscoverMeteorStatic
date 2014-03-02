@@ -112,25 +112,6 @@ h4{
 		width:100%;
 	}
 }
-.links{
-	@include medium{
-		@include span-columns(4 omega);
-	}
-	.block{
-		margin-bottom:30px;
-	}
-	h3{
-		margin-top:0;
-		border-bottom:1px dotted $medium-bg;
-		padding-bottom:5px;
-		margin-bottom:5px;
-		font-weight:light();
-	}
-	ul{
-		font-size:16px;
-		line-height:1.6;
-	}
-}
 .chapters{
 	@include medium{
 		@include span-columns(8);
@@ -294,6 +275,16 @@ figure{
 	>div{
 		margin-bottom: $mbottom;
 	}
+	h3{
+		margin-top:0;
+		border-bottom:1px dotted $medium-bg;
+		margin-bottom:10px;
+		font-weight:light();
+	}
+	ul{
+		font-size:16px;
+		line-height:1.6;
+	}		
 }
 .translators{
 	ul{

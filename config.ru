@@ -8,17 +8,24 @@ require "rack"
 require "middleman/rack"
 require "rack/contrib/try_static"
 require 'rack/rewrite'
+require 'rack/cors'
+
+# allow all origins
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '*', 
+        :headers => :any, 
+        :methods => [:get, :post, :options]
+  end
+end
 
 # Get rid of README.md file
 
 LANG = ENV['LANG'] || DEFAULTLANG
 
-`rm source/chapters/#{LANG}/README.md`
-`rm source/chapters/#{LANG}/COMMON.md`
-`rm source/chapters/#{LANG}/LICENSE`
-
 to_go = {}
-Dir.glob('source/chapters/es/*.md.erb').each do |file|
+Dir.glob('source/chapters/'+LANG+'/*.md.erb').each do |file|
   chapter = file.match('/([^/-]*)-.*$')[1]
   to_go[chapter] = `grep -o '////' #{file} | wc -l`.to_i
 end
@@ -31,6 +38,7 @@ puts `TOGO='#{to_go_str}' bundle exec middleman build`
 
 # Enable proper HEAD responses
 use Rack::Head
+
 # Attempt to serve static HTML files
 use Rack::TryStatic,
     :root => "tmp",

@@ -32,6 +32,9 @@
   .contribute
     %h3=@strings.contribute
     %a{:href => @strings.repo}= @strings.on_github
+  .links
+    %h3= @strings.download
+    %a{:href => '/pdf'}= @strings.print_pdf
   .translators
     %h3=@strings.translated_by
     %ul.contributors

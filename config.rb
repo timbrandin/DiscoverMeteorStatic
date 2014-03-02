@@ -4,7 +4,7 @@ DEFAULTLANG = 'ru'
 # Blog settings
 ###
 
-LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh']
+LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro']
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
 LANG = ENV['LANG'] || DEFAULTLANG
@@ -24,12 +24,25 @@ activate :blog do |blog|
   blog.permalink = "chapters/{slug}"
 end
 
+# Ignore special markdown files as well a inactive languages
+
+ignore "chapters/"+LANG+"/README.html"
+ignore "chapters/"+LANG+"/COMMON.html"
+
+LANGUAGES.each do |language|
+  if language != LANG
+    ignore "chapters/"+language+"/*"
+  end
+end
+
 page "chapters/*", :layout => :page_layout
 
 page "/full.html", :layout => :ebook_layout
 page "/excerpt.html", :layout => :ebook_layout
 page "/pdf.html", :layout => :ebook_layout
 page "/sample.html", :layout => :ebook_layout
+
+page "api.html", :layout => :api_layout
 
 set :css_dir, 'stylesheets'
 
@@ -49,6 +62,8 @@ activate :syntax#,:linenos => 'table'
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :autoprefixer
 
 helpers do
   def div(css_class, content)
