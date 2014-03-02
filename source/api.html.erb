@@ -8,7 +8,8 @@ total_todo = 0
   "chapters": [
       <% 
       blog.articles.reverse.each_with_index do |post, index|
-      paragraphs_to_go = @togo[index].to_i
+      chapter_code = post.data.number.to_s()
+      paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
       paragraphs_done = post.data.paragraphs - paragraphs_to_go
       percentage = paragraphs_done*100/post.data.paragraphs
       total_done += paragraphs_done
