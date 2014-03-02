@@ -101,7 +101,7 @@ $(function(){
       return obj2.contributions - obj1.contributions;
     });
     $.each(data, function (index, contributor) {
-      if(contributor.login != 'SachaG')
+      if(contributor.login != 'SachaG' && contributor.login != 'tmeasday')
         $('.contributors').append('<li><img src="'+contributor.avatar_url+'"/><a href="'+contributor.html_url+'">'+contributor.login+'</a> <span>('+contributor.contributions+')</span></li>')
     });
   });

@@ -13,6 +13,7 @@ gem "middleman"
 gem "middleman-blog"
 gem "middleman-syntax"
 gem "middleman-livereload"
+gem "middleman-autoprefixer"
 
 gem "susy"
 gem "zurb-foundation"

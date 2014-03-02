@@ -24,10 +24,6 @@ end
 
 LANG = ENV['LANG'] || DEFAULTLANG
 
-`rm source/chapters/#{LANG}/README.md`
-`rm source/chapters/#{LANG}/COMMON.md`
-`rm source/chapters/#{LANG}/LICENSE`
-
 to_go = []
 Dir.glob('source/chapters/'+LANG+'/*.md.erb').each do |file|
   to_go << `grep -o '////' #{file} | wc -l`.to_i
