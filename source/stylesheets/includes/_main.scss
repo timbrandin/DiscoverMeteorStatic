@@ -286,6 +286,15 @@ figure{
 		line-height:1.6;
 	}		
 }
+.progress{
+	p, progress{
+		margin-bottom: 10px;
+	}
+	.commit-date{
+		font-size: 14px;
+		color: $light-text;
+	}
+}
 .translators{
 	ul{
 		list-style-type: none;

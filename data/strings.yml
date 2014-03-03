@@ -52,7 +52,8 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
-
+  last_activity: 'Last activity:'
+  
 # -------------------------------------------------------------------------------------- #
 #                                           English                                      #
 # -------------------------------------------------------------------------------------- #
@@ -84,6 +85,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: 'English'
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Spanish                                       #
@@ -116,6 +118,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: 'Español'
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           French                                       #
@@ -148,6 +151,7 @@
   download: 'Télécharger'
   print_pdf: 'Imprimer > Sauvegarder au format PDF'
   language_name: 'Français'
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Chinese                                      #
@@ -180,6 +184,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: '中文'
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Russian                                      #
@@ -212,6 +217,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           German                                       #
@@ -244,6 +250,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Korean                                       #
@@ -276,6 +283,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Japanese                                      #
@@ -308,6 +316,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Polish                                       #
@@ -340,6 +349,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Greek                                        #
@@ -372,6 +382,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                         Portuguese                                     #
@@ -404,6 +415,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                          Italian                                       #
@@ -436,6 +448,7 @@
   download: 'Scarica'
   print_pdf: 'Stampa > Salva come PDF'
   language_name: 'Italiano'
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
@@ -468,6 +481,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                         Indonesian                                     #
@@ -500,6 +514,7 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   
 # -------------------------------------------------------------------------------------- #
 #                                          Romanian                                      #
@@ -532,4 +547,5 @@
   download: 'Download'
   print_pdf: 'Print > Save as PDF'
   language_name: ''
+  last_activity: 'Last activity:'
   

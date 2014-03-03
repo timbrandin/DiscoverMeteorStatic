@@ -32,7 +32,9 @@
       .row
         &copy; 2014 <a href="http://tom.thesnail.org">Tom Coleman</a> #{@strings.and} <a href="http://sachagreif.com">Sacha Greif</a>
         
-    / %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"}    
+    / %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"}
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"}
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/lang/#{@strings.lang}.js"}
     %script{:src => "/javascripts/script.js"}
 
     :javascript

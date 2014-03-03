@@ -94,17 +94,4 @@ $(function(){
     $('.translation-progress p').attr('data-value', Math.round(percentageTranslated));
   }
 
-  // GitHub
-
-  $.get('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/contributors', function (data) {
-    data.sort(function(obj1, obj2) {
-      return obj2.contributions - obj1.contributions;
-    });
-    $.each(data, function (index, contributor) {
-      if(contributor.login != 'SachaG' && contributor.login != 'tmeasday')
-        $('.contributors').append('<li><img src="'+contributor.avatar_url+'"/><a href="'+contributor.html_url+'">'+contributor.login+'</a> <span>('+contributor.contributions+')</span></li>')
-    });
-  });
-
-
 });

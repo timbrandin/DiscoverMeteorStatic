@@ -32,6 +32,9 @@
     - percentage_done = total_done * 100 / total_todo
     %p{'data-value' => percentage_done}= @strings.percentage_translated
     %progress#progress{:value => total_done, :max => total_todo}
+    .commit-date
+      %span.label= @strings.last_activity
+      %span.date
   .contribute
     %h3=@strings.contribute
     %a{:href => @strings.repo}= @strings.on_github
@@ -41,3 +44,25 @@
   .translators
     %h3=@strings.translated_by
     %ul.contributors
+
+:javascript
+  $(function(){
+   // GitHub
+    var gitHubToken = "#{@github_token}";
+    var lang = "#{@strings.lang}";
+
+    $.get('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/contributors?access_token='+gitHubToken, function (data) {
+      data.sort(function(obj1, obj2) {
+        return obj2.contributions - obj1.contributions;
+      });
+      $.each(data, function (index, contributor) {
+        if(contributor.login != 'SachaG' && contributor.login != 'tmeasday')
+          $('.contributors').append('<li><img src="'+contributor.avatar_url+'"/><a href="'+contributor.html_url+'">'+contributor.login+'</a> <span>('+contributor.contributions+')</span></li>')
+      });
+    });
+
+    $.getJSON('https://api.github.com/repos/DiscoverMeteor/DiscoverMeteor_'+lang+'/commits?access_token='+gitHubToken, function (data) {
+      var date = moment(data[0].commit.author.date).fromNow();
+      $('.commit-date .date').text(date);
+    });
+  });
