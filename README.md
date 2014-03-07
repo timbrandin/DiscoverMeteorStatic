@@ -20,7 +20,7 @@ Initialize Git submodules:
 
 Update them:
 
-`git submodule update`
+`git submodule foreach git pull origin master`
 
 Then run with:
 
