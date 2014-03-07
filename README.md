@@ -14,6 +14,14 @@ Then install Middleman and the other required gems:
 
 `bundle install`
 
+Initialize Git submodules:
+
+`git submodule init`
+
+Update them:
+
+`git submodule update`
+
 Then run with:
 
 `middleman`
