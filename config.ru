@@ -20,8 +20,6 @@ use Rack::Cors do
   end
 end
 
-# Get rid of README.md file
-
 LANG = ENV['LANG'] || DEFAULTLANG
 
 to_go = {}
