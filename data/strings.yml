@@ -20,6 +20,7 @@
 # 12. Italian
 # 13. Dutch
 # 14. Indonesian
+# 15. Romanian
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -524,28 +525,28 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Ro'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Romanian version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+    Aceasta este versiunea romaneasca a [Discover Meteor](http://discovermeteor.com),
+    tradusa de catre comunitatea Discover Meteor, disponibila gratuit sub licenta
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+  toc: 'Cuprins'
+  contribute: 'Contribuie'
+  on_github: '<em>Discover Meteor</em> in GitHub'
+  translated_by: 'Tradus de'
+  code_issue: 'Semnaleaza o problema in cod'
+  book_issue: 'Semnaleaza o problema in carte'
+  discuss: "Sau discuta continutul cartii aici:"
+  in_this_chapter: "In acest capitol:"
+  sidebar: "Panou lateral"
+  and: "si"
+  commit: "Trimite"
+  view_on_github: "Cauta in GitHub"
+  launch_instance: "Lanseaza o instanta"
+  error404: "Ne pare rau, nu am gasit ce cautati."
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
-  language_name: ''
+  percentage_translated: 'Procentaj'
+  download: 'Descarca'
+  print_pdf: 'Deschide ca PDF'
+  language_name: 'Romana'
   last_activity: 'Last activity:'
   
