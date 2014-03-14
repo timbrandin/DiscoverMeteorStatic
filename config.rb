@@ -17,7 +17,7 @@ p TOGO
 
 @togo = TOGO
 
-@strings = data.strings.find{|s| s.lang == LANG} || data.strings.find{|s| s.lang == 'en'}
+@strings = data.strings.find{|s| s['lang'] == 'en'}.merge(data.strings.find{|s| s['lang'] == LANG})
 
 # Time.zone = "UTC"
 
