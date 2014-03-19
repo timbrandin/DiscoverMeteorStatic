@@ -429,7 +429,7 @@
     Questa è la versione Italiana di [Discover Meteor](http://discovermeteor.com),
     tradotta dalla comunità di Discover Meteor e resa disponibile gratuitamente con licenza
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
-  toc: 'Tavola Dei Contenuti'
+  toc: 'Indice'
   contribute: 'Contribuisci'
   on_github: '<em>Discover Meteor</em> su GitHub'
   translated_by: 'Tradotto da'
@@ -449,7 +449,7 @@
   download: 'Scarica'
   print_pdf: 'Stampa > Salva come PDF'
   language_name: 'Italiano'
-  last_activity: 'Last activity:'
+  last_activity: 'Ultima revisione:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
