@@ -327,30 +327,30 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_Pl'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Polish version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+    To jest polska wersja książki [Discover Meteor](http://discovermeteor.com),
+    przetłumaczona przez społeczność Discover Meteor i udostępniona nieodpłatnie z licencją
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
+  toc: 'Spis treści'
+  contribute: 'Dołącz'
+  on_github: '<em>Discover Meteor</em> na GitHub'
+  translated_by: 'Tłumaczenie'
+  code_issue: 'Zgłoś błąd w kodzie źródłowym'
+  book_issue: 'Zgłoś błąd w książce'
+  discuss: "Lub umieść komentarz na temat książki tutaj:"
+  in_this_chapter: "W tym rozdziale dowiesz się:"
+  sidebar: "Pasek boczny"
+  and: "i"
+  commit: "Zatwierdź"
+  view_on_github: "Zobacz na GitHub"
+  launch_instance: "Uruchom instancję"
+  error404: "Niestety nie znaleźliśmy czego szukałeś."
   disqus: "themeteorbook"
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: 'procent przetłumaczone'
+  download: 'Pobierz'
+  print_pdf: 'Wydrukuj > Zapisz jako PDF'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'Ostatnia aktywność:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Greek                                        #
@@ -429,7 +429,7 @@
     Questa è la versione Italiana di [Discover Meteor](http://discovermeteor.com),
     tradotta dalla comunità di Discover Meteor e resa disponibile gratuitamente con licenza
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US).
-  toc: 'Tavola Dei Contenuti'
+  toc: 'Indice'
   contribute: 'Contribuisci'
   on_github: '<em>Discover Meteor</em> su GitHub'
   translated_by: 'Tradotto da'
@@ -449,7 +449,7 @@
   download: 'Scarica'
   print_pdf: 'Stampa > Salva come PDF'
   language_name: 'Italiano'
-  last_activity: 'Last activity:'
+  last_activity: 'Ultima revisione:'
   
 # -------------------------------------------------------------------------------------- #
 #                                           Dutch                                        #
