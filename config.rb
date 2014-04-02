@@ -6,7 +6,7 @@ DEFAULTLANG = 'ru'
 # Blog settings
 ###
 
-LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro']
+LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro', 'da']
 
 S3_URL = 'https://s3.amazonaws.com/DiscoverMeteor/'
 LANG = ENV['LANG'] || DEFAULTLANG
