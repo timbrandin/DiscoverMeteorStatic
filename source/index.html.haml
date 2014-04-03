@@ -21,8 +21,8 @@
         - percentage = paragraphs_done*100/post.data.paragraphs
         - total_done += paragraphs_done
         - total_todo += post.data.paragraphs
-        / - puts '-----------------------------------'
-        / - puts @togo.select{|key, value| key == chapter_code }
+        - # puts '-----------------------------------'
+        - # puts @togo.select{|key, value| key == chapter_code }
       %li
         %a.chapter-title{:href => "#{post.url}"}=post.title
         - if !@strings.is_complete
