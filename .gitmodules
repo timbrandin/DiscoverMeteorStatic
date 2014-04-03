@@ -46,3 +46,6 @@
 [submodule "source/chapters/da"]
 	path = source/chapters/da
 	url = git://github.com/DiscoverMeteor/DiscoverMeteor_da.git
+[submodule "source/chapters/hr"]
+	path = source/chapters/hr
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_hr.git
