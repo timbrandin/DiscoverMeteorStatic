@@ -22,6 +22,7 @@
 # 14. Indonesian
 # 15. Romanian
 # 16. Danish
+# 17. Croatian
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -584,3 +585,37 @@
   print_pdf: 'Print > Save as PDF'
   language_name: ''
   last_activity: 'Last activity:'
+
+# -------------------------------------------------------------------------------------- #
+#                                          Croatian                                      #
+# -------------------------------------------------------------------------------------- #
+- lang: 'hr'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hr'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Croatian version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+  
