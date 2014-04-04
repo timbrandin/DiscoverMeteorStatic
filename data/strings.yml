@@ -766,30 +766,30 @@
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_th'
   book_title: 'Discover Meteor'
   intro: >
-    This is the Thai version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
+    นี่คือหนังสือ [Discover Meteor](http://discovermeteor.com) ฉบับภาษาไทย
+    แปลจากภาษาอังกฤษโดยชุมชนผู้อ่าน Discover Meteor และเปิดให้ทุกท่านเข้าถึงได้ฟรี
+    ภายใต้สัญญาอนุญาต [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.th)
+  toc: 'สารบัญ'
+  contribute: 'ช่วยแปลหน่อย'
+  on_github: '<em>Discover Meteor</em> บน GitHub'
+  translated_by: 'แปลโดย'
+  code_issue: 'แจ้งปัญหาเกี่ยวกับโค้ด'
+  book_issue: 'แจ้งปัญหาเกี่ยวกับหนังสือ'
+  discuss: "หรือพูดคุยเกี่ยวกับเนื้อหาในหนังสือที่นี่"
+  in_this_chapter: "ในบทนี้ คุณจะได้"
+  sidebar: "บทแทรก"
+  and: "และ"
+  commit: "คอมมิท"
+  view_on_github: "ดูโค้ดบน GitHub"
   launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+  error404: "ขออภัย เราไม่พบสิ่งที่คุณตามหา"
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
+  percentage_translated: 'แปลไปแล้ว'
+  download: 'ดาวน์โหลด'
   print_pdf: 'Print > Save as PDF'
-  language_name: ''
-  last_activity: 'Last activity:'
+  language_name: 'ไทย'
+  last_activity: 'แก้ไขล่าสุดเมื่อ'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Arabic                                       #
