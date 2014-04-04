@@ -22,6 +22,13 @@
 # 14. Indonesian
 # 15. Romanian
 # 16. Danish
+# 17. Croatian
+# 18. Malay
+# 19. Turkish
+# 20. Amharic
+# 21. Ukrainian
+# 22. Thai
+# 23. Arabic
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -561,6 +568,238 @@
   book_title: 'Discover Meteor'
   intro: >
     This is the Danish version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+
+# -------------------------------------------------------------------------------------- #
+#                                          Croatian                                      #
+# -------------------------------------------------------------------------------------- #
+- lang: 'hr'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_hr'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Croatian version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+  
+# -------------------------------------------------------------------------------------- #
+#                                           Malay                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'ms'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_ms'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Malay version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+
+
+# -------------------------------------------------------------------------------------- #
+#                                          Turkish                                       #
+# -------------------------------------------------------------------------------------- #
+- lang: 'tr'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_tr'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Turkish version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+
+# -------------------------------------------------------------------------------------- #
+#                                           Amharic                                      #
+# -------------------------------------------------------------------------------------- #
+- lang: 'am'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_am'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Amharic version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+
+# -------------------------------------------------------------------------------------- #
+#                                          Ukrainian                                     #
+# -------------------------------------------------------------------------------------- #
+- lang: 'uk'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_uk'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Ukrainian version of [Discover Meteor](http://discovermeteor.com),
+    translated by the Discover Meteor community and made available for free under a
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
+  toc: 'Table Of Contents'
+  contribute: 'Contribute'
+  on_github: '<em>Discover Meteor</em> on GitHub'
+  translated_by: 'Translated by'
+  code_issue: 'Report an issue with the code'
+  book_issue: 'Report an issue with the book'
+  discuss: "Or discuss the book's contents here:"
+  in_this_chapter: "In this chapter, you will:"
+  sidebar: "Sidebar"
+  and: "and"
+  commit: "Commit"
+  view_on_github: "View on GitHub"
+  launch_instance: "Launch Instance"
+  error404: "Sorry, we couldn't find what you were looking for."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Percentage Translated'
+  download: 'Download'
+  print_pdf: 'Print > Save as PDF'
+  language_name: ''
+  last_activity: 'Last activity:'
+
+# -------------------------------------------------------------------------------------- #
+#                                            Thai                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'th'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_th'
+  book_title: 'Discover Meteor'
+  intro: >
+    นี่คือหนังสือ [Discover Meteor](http://discovermeteor.com) ฉบับภาษาไทย
+    แปลจากภาษาอังกฤษโดยชุมชนผู้อ่าน Discover Meteor และเปิดให้ทุกท่านเข้าถึงได้ฟรี
+    ภายใต้สัญญาอนุญาต [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.th)
+  toc: 'สารบัญ'
+  contribute: 'ช่วยแปลหน่อย'
+  on_github: '<em>Discover Meteor</em> บน GitHub'
+  translated_by: 'แปลโดย'
+  code_issue: 'แจ้งปัญหาเกี่ยวกับโค้ด'
+  book_issue: 'แจ้งปัญหาเกี่ยวกับหนังสือ'
+  discuss: "หรือพูดคุยเกี่ยวกับเนื้อหาในหนังสือที่นี่"
+  in_this_chapter: "ในบทนี้ คุณจะได้"
+  sidebar: "บทแทรก"
+  and: "และ"
+  commit: "คอมมิท"
+  view_on_github: "ดูโค้ดบน GitHub"
+  launch_instance: "Launch Instance"
+  error404: "ขออภัย เราไม่พบสิ่งที่คุณตามหา"
+  disqus: ""
+  ga: ""
+  percentage_translated: 'แปลไปแล้ว'
+  download: 'ดาวน์โหลด'
+  print_pdf: 'Print > Save as PDF'
+  language_name: 'ไทย'
+  last_activity: 'แก้ไขล่าสุดเมื่อ'
+
+# -------------------------------------------------------------------------------------- #
+#                                           Arabic                                       #
+# -------------------------------------------------------------------------------------- #
+- lang: 'ar'
+  is_complete: false
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_ar'
+  book_title: 'Discover Meteor'
+  intro: >
+    This is the Arabic version of [Discover Meteor](http://discovermeteor.com),
     translated by the Discover Meteor community and made available for free under a
     [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
   toc: 'Table Of Contents'

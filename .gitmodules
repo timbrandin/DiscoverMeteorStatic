@@ -46,3 +46,21 @@
 [submodule "source/chapters/da"]
 	path = source/chapters/da
 	url = git://github.com/DiscoverMeteor/DiscoverMeteor_da.git
+[submodule "source/chapters/hr"]
+	path = source/chapters/hr
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_hr.git
+[submodule "source/chapters/ms"]
+	path = source/chapters/ms
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_ms.git
+[submodule "source/chapters/tr"]
+	path = source/chapters/tr
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_tr.git
+[submodule "source/chapters/am"]
+	path = source/chapters/am
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_am.git
+[submodule "source/chapters/uk"]
+	path = source/chapters/uk
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_uk.git
+[submodule "source/chapters/th"]
+	path = source/chapters/th
+	url = git://github.com/DiscoverMeteor/DiscoverMeteor_th.git

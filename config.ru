@@ -20,7 +20,7 @@ use Rack::Cors do
   end
 end
 
-LANG = ENV['LANG'] || DEFAULTLANG
+LANG = ENV['DMLANG'] || DEFAULTLANG
 
 to_go = {}
 Dir.glob('source/chapters/'+LANG+'/*.md.erb').each do |file|
