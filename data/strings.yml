@@ -520,10 +520,10 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Persentase telah Diterjemahkan'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  download: 'Unduh'
+  print_pdf: 'Cetak > Simpan sebagai PDF'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'Aktifitas terakhir:'
   
 # -------------------------------------------------------------------------------------- #
 #                                          Romanian                                      #
