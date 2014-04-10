@@ -10,7 +10,7 @@ LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', '
 
 LANG = ENV['DMLANG'] || DEFAULTLANG
 
-if LANG = 'en'
+if LANG == 'en'
   S3_URL = '/images/'
 else
   S3_URL = 'https://s3.amazonaws.com/discovermeteor/'
