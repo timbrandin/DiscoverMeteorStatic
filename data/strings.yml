@@ -520,10 +520,10 @@
   disqus: ""
   ga: ""
   percentage_translated: 'Persentase telah Diterjemahkan'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  download: 'Unduh'
+  print_pdf: 'Cetak > Simpan sebagai PDF'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'Aktifitas terakhir:'
   
 # -------------------------------------------------------------------------------------- #
 #                                          Romanian                                      #
@@ -698,32 +698,32 @@
 - lang: 'am'
   is_complete: false
   repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_am'
-  book_title: 'Discover Meteor'
+  book_title: 'ዲስካቨር ሚትዩር'
   intro: >
-    This is the Amharic version of [Discover Meteor](http://discovermeteor.com),
-    translated by the Discover Meteor community and made available for free under a
-    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) license.
-  toc: 'Table Of Contents'
-  contribute: 'Contribute'
-  on_github: '<em>Discover Meteor</em> on GitHub'
-  translated_by: 'Translated by'
-  code_issue: 'Report an issue with the code'
-  book_issue: 'Report an issue with the book'
-  discuss: "Or discuss the book's contents here:"
-  in_this_chapter: "In this chapter, you will:"
-  sidebar: "Sidebar"
-  and: "and"
-  commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
-  error404: "Sorry, we couldn't find what you were looking for."
+    ይህ የ[Discover Meteor](http://discovermeteor.com) መጸሐፍ የኣማርኛ ቅጂ ነው፤ 
+    በዲስካቨር ሚትዩር ማህበረሰብ ተተርጉሞ በ[Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) 
+    ፍቃድ በነፃ የተበረከተ ነው።
+  toc: 'የይዞታ ሰንጠረዥ'
+  contribute: 'ያዋጡ'
+  on_github: '<em>ዲስካቨር ሚትዩር</em> በጊትሀብ'
+  translated_by: 'ተርጓሚዎች'
+  code_issue: 'ኮዱ ውስጥ ያለን ችግር ሪፖርት ያድርጉ'
+  book_issue: 'መጸሐፉ ውስጥ ያለን ችግር ሪፖርት ያድርጉ'
+  discuss: "ወይም የመጸሐፉን ይዘት እዚህ ይወያዩበት:"
+  in_this_chapter: "በዚህ ምዕራፍ:"
+  sidebar: "የጎን ኣሞሌ"
+  and: "እና"
+  commit: "ኣከማች"
+  view_on_github: "በጊትሀብ ላይ ይመልከቱ"
+  launch_instance: "ያስጀምሩ"
+  error404: "ይቅርታ፣ የሚፈልጉትን ማግኘት ኣልቻልንም።"
   disqus: ""
   ga: ""
-  percentage_translated: 'Percentage Translated'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  percentage_translated: 'የተተረጎመው መጠን'
+  download: 'ኣውርድ'
+  print_pdf: 'ኣትም > ወደ PDF ኣስቀምጥ'
   language_name: ''
-  last_activity: 'Last activity:'
+  last_activity: 'የመጨረሻ እንቅስቃሴ:'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Ukrainian                                     #
