@@ -710,12 +710,12 @@
   code_issue: 'ኮዱ ውስጥ ያለን ችግር ሪፖርት ያድርጉ'
   book_issue: 'መጸሐፉ ውስጥ ያለን ችግር ሪፖርት ያድርጉ'
   discuss: "ወይም የመጸሐፉን ይዘት እዚህ ይወያዩበት:"
-  in_this_chapter: "በዚህ ምራፍ ውስጥ:"
+  in_this_chapter: "በዚህ ምዕራፍ:"
   sidebar: "የጎን ኣሞሌ"
   and: "እና"
   commit: "ኣከማች"
   view_on_github: "በጊትሀብ ላይ ይመልከቱ"
-  launch_instance: "Launch Instance"
+  launch_instance: "ያስጀምሩ"
   error404: "ይቅርታ፣ የሚፈልጉትን ማግኘት ኣልቻልንም።"
   disqus: ""
   ga: ""
