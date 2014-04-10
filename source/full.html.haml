@@ -20,12 +20,13 @@ title: Discover Meteor
     .site
       %a{:href => "http://discovermeteor.com"} www.discovermeteor.com
 - blog.articles.reverse_each do |chapter|
-  %section.chapter
-    .post-content
-      %h2{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}
-        =chapter.data.title
-        -if chapter.data.sidebar
-          %span.sidebar-marker Sidebar
-        %span.number=chapter.data.number
-      =find_and_preserve do
-        = chapter.body
+  - unless chapter.data.published == false || chapter.data.extra == true
+    %section.chapter
+      .post-content
+        %h2{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}
+          =chapter.data.title
+          -if chapter.data.sidebar
+            %span.sidebar-marker Sidebar
+          %span.number=chapter.data.number
+        =find_and_preserve do
+          = chapter.body

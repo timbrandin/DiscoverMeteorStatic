@@ -8,8 +8,13 @@ DEFAULTLANG = 'ru'
 
 LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro', 'ar', 'da', 'hr', 'ms', 'tr', 'am', 'th', 'uk']
 
-S3_URL = 'https://s3.amazonaws.com/discovermeteor/'
 LANG = ENV['DMLANG'] || DEFAULTLANG
+
+if LANG = 'en'
+  S3_URL = '/images/'
+else
+  S3_URL = 'https://s3.amazonaws.com/discovermeteor/'
+end
 
 parts = (ENV['TOGO'] || "01:0,02:0,02s:0,03:0,03s:0,04:1,04s:0,05:72,05s:33,06:27,06s:20,07:60,07s:28,08:29,08s:16,09:31,09s:22,10:34,10s:15,11:25,11s:29,12:67,13:49,13s:36,14:58,14s:24").split(',').map{|s| s.split(':')}.flatten
 TOGO = Hash[Hash[*parts].map{|key,value| [key.sub(/^0+/, '').sub("s", ".5"), value]}]

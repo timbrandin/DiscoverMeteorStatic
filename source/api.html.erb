@@ -10,21 +10,26 @@ total_todo = 0
       blog.articles.reverse.each_with_index do |post, index|
       chapter_code = post.data.number.to_s()
       paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
-      paragraphs_done = post.data.paragraphs - paragraphs_to_go
-      percentage = paragraphs_done*100/post.data.paragraphs
-      total_done += paragraphs_done
-      total_todo += post.data.paragraphs
+      # puts post.data
+      unless post.data.published == false || post.data.extra == true
+        paragraphs_done = post.data.paragraphs - paragraphs_to_go
+        percentage = paragraphs_done*100/post.data.paragraphs
+        total_done += paragraphs_done
+        total_todo += post.data.paragraphs
+        %>
+        <% if index > 0 %>,<% end %>
+        {
+          "title": "<%=post.title%>",
+          "paragraphs": <%=post.data.paragraphs%>,
+          "paragraphs_done": <%=paragraphs_done%>,
+          "percentage": <%=percentage%>,
+          "number": "<%=post.data.number%>",
+          "slug": "<%=post.data.slug%>"
+        }
+        <% 
+        end 
+      end
       %>
-      <% if index > 0 %>,<% end %>
-      {
-        "title": "<%=post.title%>",
-        "paragraphs": <%=post.data.paragraphs%>,
-        "paragraphs_done": <%=paragraphs_done%>,
-        "percentage": <%=percentage%>,
-        "number": "<%=post.data.number%>",
-        "slug": "<%=post.data.slug%>"
-      }
-      <% end %>
   ],
   "total_paragraphs": <%=total_todo%>,
   "total_paragraphs_done": <%=total_done%>,

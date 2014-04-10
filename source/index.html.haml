@@ -14,20 +14,22 @@
   %h2= @strings.toc
   %ul
     - blog.articles.reverse.each_with_index do |post, index|
-      - if !@strings.is_complete
-        - chapter_code = post.data.number.to_s()
-        - paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
-        - paragraphs_done = post.data.paragraphs - paragraphs_to_go
-        - percentage = paragraphs_done*100/post.data.paragraphs
-        - total_done += paragraphs_done
-        - total_todo += post.data.paragraphs
-        - # puts '-----------------------------------'
-        - # puts @togo.select{|key, value| key == chapter_code }
-      %li
-        %a.chapter-title{:href => "#{post.url}"}=post.title
+      - # puts post.inspect
+      - unless post.data.published == false || post.data.extra == true
         - if !@strings.is_complete
-          %span.chapter-percentage (#{percentage}%)
-        %span.chapter-number=post.data.number
+          - chapter_code = post.data.number.to_s()
+          - paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
+          - paragraphs_done = post.data.paragraphs - paragraphs_to_go
+          - percentage = paragraphs_done*100/post.data.paragraphs
+          - total_done += paragraphs_done
+          - total_todo += post.data.paragraphs
+          - # puts '-----------------------------------'
+          - # puts @togo.select{|key, value| key == chapter_code }
+        %li
+          %a.chapter-title{:href => "#{post.url}"}=post.title
+          - if !@strings.is_complete
+            %span.chapter-percentage (#{percentage}%)
+          %span.chapter-number=post.data.number
 %section.side-column
   .progress
     - if !@strings.is_complete
