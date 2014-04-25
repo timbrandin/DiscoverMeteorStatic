@@ -16,7 +16,7 @@
     - blog.articles.reverse.each_with_index do |post, index|
       - # puts post.inspect
       - unless post.data.published == false || post.data.extra == true
-        - if !@strings.is_complete
+        - if !@strings.is_complete && post.data.paragraphs
           - chapter_code = post.data.number.to_s()
           - paragraphs_to_go = @togo.select{|key, value| key == chapter_code }[chapter_code].to_i()
           - paragraphs_done = post.data.paragraphs - paragraphs_to_go
