@@ -151,8 +151,8 @@
   sidebar: "Zoom"
   and: "et"
   commit: "Commit"
-  view_on_github: "View on GitHub"
-  launch_instance: "Launch Instance"
+  view_on_github: "Voir sur GitHub"
+  launch_instance: "Lancer l'instance"
   error404: "Désolé, la page demandée n'a pas été trouvée."
   disqus: "discovermeteorfr"
   ga: "UA-38246482-6"
@@ -160,7 +160,7 @@
   download: 'Télécharger'
   print_pdf: 'Imprimer > Sauvegarder au format PDF'
   language_name: 'Français'
-  last_activity: 'Last activity:'
+  last_activity: 'Dernière activité:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Chinese                                      #
