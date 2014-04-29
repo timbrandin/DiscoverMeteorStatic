@@ -146,9 +146,9 @@
   translated_by: 'Traduit par'
   code_issue: 'Signaler un problème avec le code'
   book_issue: 'Signaler un problème avec le contenu'
-  discuss: "Ou bien discuter du contenu du livre:"
-  in_this_chapter: "Au programme de ce chapitre:"
-  sidebar: "Zoom"
+  discuss: "Ou bien discuter du contenu du livre :"
+  in_this_chapter: "Au programme de ce chapitre :"
+  sidebar: "Aparté"
   and: "et"
   commit: "Commit"
   view_on_github: "Voir sur GitHub"
@@ -156,11 +156,11 @@
   error404: "Désolé, la page demandée n'a pas été trouvée."
   disqus: "discovermeteorfr"
   ga: "UA-38246482-6"
-  percentage_translated: 'Traduction Complétée à'
+  percentage_translated: 'Traduction complétée à'
   download: 'Télécharger'
   print_pdf: 'Imprimer > Sauvegarder au format PDF'
   language_name: 'Français'
-  last_activity: 'Dernière activité:'
+  last_activity: 'Dernière activité :'
 
 # -------------------------------------------------------------------------------------- #
 #                                           Chinese                                      #
