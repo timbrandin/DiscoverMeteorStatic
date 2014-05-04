@@ -223,10 +223,10 @@
   disqus: "themeteorbook"
   ga: ""
   percentage_translated: 'На данный момент переведено'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
-  language_name: ''
-  last_activity: 'Last activity:'
+  download: 'Загрузка'
+  print_pdf: 'Печать > Сохранить как PDF'
+  language_name: 'По-русски'
+  last_activity: 'Последние правки:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           German                                       #
