@@ -10,6 +10,10 @@ title: Discover Meteor
       %span Discover
       %strong Meteor
     %h2 Building Real-Time JavaScript Web Apps
+    - chapter1 = blog.articles.reverse[0].data
+    - if chapter1.version && chapter1.updated
+      %p.version #{@strings.version} #{chapter1['version']} (updated #{chapter1['updated']})
+    %p 
   %footer
     .credits
       %h3 Tom Coleman &amp; Sacha Greif
@@ -23,10 +27,10 @@ title: Discover Meteor
   - unless chapter.data.published == false || chapter.data.extra == true
     %section.chapter
       .post-content
-        %h2{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}
-          =chapter.data.title
+        .chapter-heading
+          %h2.chapter-title{:id => chapter.data.title.downcase.gsub(/\s+/, "").gsub(/&+/, "")}=chapter.data.title
           -if chapter.data.sidebar
             %span.sidebar-marker Sidebar
-          %span.number=chapter.data.number
+          %span.chapter-number=chapter.data.number
         =find_and_preserve do
           = chapter.body

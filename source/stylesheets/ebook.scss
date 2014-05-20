@@ -75,8 +75,9 @@ src : url(../fonts/Klavika-Bold.otf);
 }
 
 body, p{
-	font-size:16px;
+	font-size:inherit;
 }
+
 section, .section{
 	page-break-after:always;
 }
@@ -127,9 +128,13 @@ h4{
 			}
 		}
 		h2{
-			margin:0px;	
+			margin:0px 0 10px 0;	
 			font-weight:light();
 			text-align:center;
+		}
+		.version{
+			font-size: 14px;
+			text-align: center;
 		}
 	}
 	footer{
@@ -220,4 +225,22 @@ pre, code, pre span, code span{
 }
 .translation-progress{
 	display: none;
+}
+.chapter-heading{
+	@include cf;
+	border-bottom:1px solid $light-bg;
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+	.chapter-title{
+		border: none;
+		display: inline-block;
+		margin: 0;
+		font-weight:light();
+		line-height: 1.3;
+	}
+	.chapter-number{
+		float:right;
+		font-weight:light();
+		color:$light-text;
+	}
 }

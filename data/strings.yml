@@ -62,6 +62,7 @@
   print_pdf: 'Print > Save as PDF'
   language_name: ''
   last_activity: 'Last activity:'
+  version: 'Version'
   
 # -------------------------------------------------------------------------------------- #
 #                                           English                                      #
@@ -95,6 +96,7 @@
   print_pdf: 'Print > Save as PDF'
   language_name: 'English'
   last_activity: 'Last activity:'
+  version: 'Version'
 
 # -------------------------------------------------------------------------------------- #
 #                                          Spanish                                       #

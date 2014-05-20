@@ -50,18 +50,6 @@
 		color:#333;
 		font-weight:100;
 	}
-	h2{
-		@include cf;
-		// font-weight:100;
-		.chapter{
-			float:left;
-		}
-		.number{
-			float:right;
-			font-weight:light();
-			color:$light-text;
-		}
-	}
 	img{
 		// border:10px solid lighten($light-bg, 6%);
 		width:100%;
