@@ -126,10 +126,10 @@
   disqus: "discovermeteores"
   ga: "UA-38246482-5"
   percentage_translated: 'Porcentaje completado'
-  download: 'Download'
-  print_pdf: 'Print > Save as PDF'
+  download: 'Descarga'
+  print_pdf: 'Imprimir > Guardar como PDF'
   language_name: 'Español'
-  last_activity: 'Last activity:'
+  last_activity: 'Última actividad:'
 
 # -------------------------------------------------------------------------------------- #
 #                                           French                                       #
