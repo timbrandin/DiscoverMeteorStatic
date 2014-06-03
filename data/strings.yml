@@ -130,6 +130,7 @@
   print_pdf: 'Imprimir > Guardar como PDF'
   language_name: 'Español'
   last_activity: 'Última actividad:'
+  version: 'Versión'
 
 # -------------------------------------------------------------------------------------- #
 #                                           French                                       #
