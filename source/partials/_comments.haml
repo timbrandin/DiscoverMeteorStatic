@@ -4,8 +4,8 @@
   - identifier = current_article.data.slug+'_'+@strings.lang
 
 .comments.sidebar
-  %a.toggle{:href => "#disqus_thread", "data-disqus-identifier" => identifier}
-  .inner
+  %a.sidebar-toggle{:href => "#disqus_thread", "data-disqus-identifier" => identifier}
+  .sidebar-inner
     .issues
       %a.issue-link.simple-button{:href => 'https://github.com/DiscoverMeteor/Microscope/issues', :target => '_blank'}= @strings.code_issue
       %a.issue-link.simple-button{:href => 'https://github.com/DiscoverMeteor/DiscoverMeteor_'+@strings.lang+'/issues', :target => '_blank'}= @strings.book_issue

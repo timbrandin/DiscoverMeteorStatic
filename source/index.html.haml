@@ -13,8 +13,7 @@
 %section.chapters
   %h2= @strings.toc
   %ul
-    - blog.articles.reverse.each_with_index do |post, index|
-      - # puts post.inspect
+    - blog.articles.select{|chapter| !chapter.data.has_key?('appendix')}.reverse.each_with_index do |post, index|
       - unless post.data.published == false || post.data.extra == true
         - if !@strings.is_complete && post.data.paragraphs
           - chapter_code = post.data.number.to_s()

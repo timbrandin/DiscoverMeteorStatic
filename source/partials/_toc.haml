@@ -1,6 +1,6 @@
 .toc.sidebar
-  %a.toggle{:href => "javascript:void(0)"} Toggle Table of Contents
-  .inner
+  %a.sidebar-toggle{:href => "javascript:void(0)"} Toggle Table of Contents
+  .sidebar-inner
     %ul
       - blog.articles.reverse_each do |post|
         - if post.data.sidebar

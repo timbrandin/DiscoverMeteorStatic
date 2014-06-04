@@ -6,20 +6,37 @@ $(function(){
   $('span:contains("❯")').removeClass('err').addClass('browser-prompt');
 
   // sidebars
-  $('.toc .toggle').click(function(event){
+  $('.toc .sidebar-toggle').click(function(event){
     console.log('aaa')
     event.preventDefault();
     $('body').toggleClass('toc-open sidebar-open')
-  });
-  $('.comments .toggle').click(function(event){
-    event.preventDefault();
-    $('body').toggleClass('comments-open sidebar-open')
   });
 
   $('.toc a').each(function(){
     if($(this).attr('href') == window.location.pathname)
       $(this).parent().addClass('active');
   });
+
+  $('.comments .sidebar-toggle').click(function(event){
+    event.preventDefault();
+    $('body').toggleClass('comments-open sidebar-open')
+  });
+
+
+
+  $('.vocabulary .sidebar-toggle').click(function(event){
+    event.preventDefault();
+    $('body').toggleClass('vocabulary-open sidebar-open')
+  });
+
+  $('.vocabulary .sidebar-content p').hide();
+
+
+  $('.vocabulary h4').click(function(event){
+    event.preventDefault();
+    $(event.currentTarget).toggleClass('active').next().slideToggle('fast');
+  });
+
 
   // pre
   $('pre').addClass('all-new');

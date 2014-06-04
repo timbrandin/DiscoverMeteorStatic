@@ -1,0 +1,8 @@
+- vocabulary_chapter = blog.articles.select{|chapter| chapter.slug == 'meteor-vocabulary' }[0]
+- puts vocabulary_chapter.inspect
+.vocabulary.sidebar
+  %a.sidebar-toggle{href: "#"} Toggle Vocabulary
+  .sidebar-inner
+    .sidebar-content
+      %h3 Vocabulary
+      = vocabulary_chapter.body
