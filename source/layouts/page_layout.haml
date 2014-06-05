@@ -12,11 +12,11 @@
       =partial "partials/nav"
 
     .post-content
-      %h2
-        %span.chapter=current_article.title
-        - if current_article.data.sidebar
-          %span.sidebar-marker= @strings.sidebar
-        %span.number=current_article.data.number
+      .chapter-heading
+        %h2.chapter-title=current_article.title
+        -if current_article.data.sidebar
+          %span.sidebar-marker Sidebar
+        %span.chapter-number=current_article.data.number
       - if current_article.data.paragraphs && @strings.is_complete != true
         %input#paragraphs{:type => 'hidden', :value => current_article.data.paragraphs}
 

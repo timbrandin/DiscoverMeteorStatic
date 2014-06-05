@@ -9,13 +9,29 @@
 	@include animate;
 }
 .post-content{
-	h2{
-		font-weight:light();
-		border-bottom:1px solid $light-bg;
-	}
 	h3{
 		border-bottom:1px solid $light-bg;
 		clear:both;
+	}
+}
+.chapter-heading{
+	@include cf;
+	border-bottom:1px solid $light-bg;
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+	.chapter-title{
+		border: none;
+		display: inline-block;
+		margin: 0;
+		font-weight:light();
+		line-height: 1.3;
+	}
+	.chapter-number{
+		float:right;
+		font-weight:light();
+		color:$light-text;
+		position: relative;
+		top: 12px;
 	}
 }
 .post-top{
