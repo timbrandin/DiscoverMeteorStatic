@@ -1,4 +1,4 @@
-DEFAULTLANG = 'it'
+DEFAULTLANG = 'fr'
 
 @github_token = '33deedd6f4d1ac97eb9e74e277a139861df677a4'
 
