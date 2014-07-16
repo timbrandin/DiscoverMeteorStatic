@@ -881,7 +881,7 @@
   code_issue: 'Rapportera ett problem med koden'
   book_issue: 'Rapportera ett problem med boken'
   discuss: "Eller diskutera bokens innehåll här:"
-  in_this_chapter: "I detta kapitlet, kommer du:"
+  in_this_chapter: "I detta kapitel, kommer du:"
   sidebar: "Sidofält"
   and: "och"
   commit: "Commit"
