@@ -30,6 +30,7 @@
 # 22. Thai
 # 23. Arabic
 # 24. Hindi
+# 25. Swedish
 
 # -------------------------------------------------------------------------------------- #
 #                                           Blank                                        #
@@ -860,4 +861,38 @@
   print_pdf: 'Print > Save as PDF'
   language_name: ''
   last_activity: 'Last activity:'
+  version: 'Version'
+  
+# -------------------------------------------------------------------------------------- #
+#                                           Blank                                        #
+# -------------------------------------------------------------------------------------- #
+- lang: 'sv'
+  is_complete: true
+  repo: 'https://github.com/DiscoverMeteor/DiscoverMeteor_sv'
+  book_title: 'Upptäck Meteor'
+  intro: >
+    Detta är den Svenska versionen av [Discover Meteor](http://discovermeteor.com),
+    översatt av communityt för Discover Meteor och gjorts tillgängligt gratis under en 
+    [Creative Commons Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/deed.en_US) -licens.
+  toc: 'Innehållsförteckning'
+  contribute: 'Bidra'
+  on_github: '<em>Discover Meteor</em> på GitHub'
+  translated_by: 'Översatt av'
+  code_issue: 'Rapportera ett problem med koden'
+  book_issue: 'Rapportera ett problem med boken'
+  discuss: "Eller diskutera bokens innehåll här:"
+  in_this_chapter: "I detta kapitlet, kommer du kunna:"
+  sidebar: "Sidofält"
+  and: "och"
+  commit: "Commit"
+  view_on_github: "Visa på GitHub"
+  launch_instance: "Starta Instans"
+  error404: "Oj här saknas något, vi kunde tyvärr inte hitta vad du letade efter."
+  disqus: ""
+  ga: ""
+  percentage_translated: 'Procent översatt'
+  download: 'Ladda ner'
+  print_pdf: 'Skriv ut > Spara som PDF'
+  language_name: ''
+  last_activity: 'Senaste aktivitet:'
   version: 'Version'
