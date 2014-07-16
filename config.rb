@@ -6,7 +6,7 @@ DEFAULTLANG = 'fr'
 # Blog settings
 ###
 
-LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro', 'ar', 'da', 'hr', 'ms', 'tr', 'am', 'th', 'uk', 'hi']
+LANGUAGES = ['de', 'en', 'es', 'fr', 'gr', 'id', 'it', 'jp', 'kr', 'nl', 'pl', 'pt', 'ru', 'zh', 'ro', 'ar', 'da', 'hr', 'ms', 'tr', 'am', 'th', 'uk', 'hi', 'sv']
 
 LANG = ENV['DMLANG'] || DEFAULTLANG
 
